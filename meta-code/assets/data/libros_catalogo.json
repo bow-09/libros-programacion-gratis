@@ -1,0 +1,4212 @@
+{
+  "fuente": "https://github.com/midudev/libros-programacion-gratis",
+  "totalCategorias": 43,
+  "totalLibros": 314,
+  "categorias": [
+    {
+      "id": "generales",
+      "titulo": "Generales",
+      "grupo": "Fundamentos",
+      "descripcion": "Para abrir apetito, mejorar criterio y aprender a pensar mejor como programador.",
+      "libros": [
+        {
+          "id": "97-cosas-que-todo-programador-debe-saber",
+          "titulo": "97 cosas que todo programador debe saber",
+          "autor": "Kevlin Henney",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/97-cosas-programador/",
+          "pdfUrl": "https://librosgratis.dev/books/97-cosas-que-todo-programador-deberia-saber.pdf",
+          "epubUrl": "https://librosgratis.dev/books/97-cosas-que-todo-programador-deberia-saber.epub",
+          "nota": null
+        },
+        {
+          "id": "100cosasdev",
+          "titulo": "100 cosas que todo programador debe saber",
+          "autor": "midudev",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://100cosas.dev/",
+          "pdfUrl": "https://librosgratis.dev/books/100cosas-es.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "los-apuntes-de-majo",
+          "titulo": "Los apuntes de Majo",
+          "autor": "Majo Ledesma",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://losapuntesdemajo.vercel.app/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-camino-a-un-mejor-programador",
+          "titulo": "El camino a un mejor programador",
+          "autor": "Esteban Manchado Velázquez, Joaquín Caraballo Moreno, Yeray Darias Camacho",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://emanchado.github.io/camino-mejor-programador/downloads/camino_2013-01-19_0688b6e.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-de-videojuegos-sdl",
+          "titulo": "Programación de videojuegos SDL",
+          "autor": "Alberto García Serrano",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/programacion-videojuegos-sdl.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/programacion-videojuegos-sdl.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "como-ser-un-programador",
+          "titulo": "Cómo ser un Programador: Versión Comunitaria",
+          "autor": "Robert L. Read y comunidad",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://braydie.gitbook.io/how-to-be-a-programmer/es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "producir-software-de-codigo-abierto",
+          "titulo": "Producir Software de Código Abierto",
+          "autor": "Karl Fogel",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://producingoss.com/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "patrones-de-diseno-refactoring-guru",
+          "titulo": "Patrones de diseño",
+          "autor": "Alexander Shvets (Refactoring.Guru)",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://refactoring.guru/es/design-patterns",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "algoritmos",
+      "titulo": "Algoritmos y estructuras de datos",
+      "grupo": "Fundamentos",
+      "descripcion": "Lógica, pseudocódigo, POO, análisis de algoritmos y estructuras para resolver mejor.",
+      "libros": [
+        {
+          "id": "diseno-de-algoritmos-en-pseudocodigo-y-ordinogramas",
+          "titulo": "Diseño de Algoritmos en Pseudocódigo y Ordinogramas",
+          "autor": "Carlos Pes",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/algoritmos-pseudocodigo-ordinogramas.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/algoritmos-pseudocodigo-ordinogramas.pdf",
+          "epubUrl": "https://librosgratis.dev/books/algoritmos-pseudocodigo-ordinogramas.epub",
+          "nota": null
+        },
+        {
+          "id": "estructuras-de-datos",
+          "titulo": "Estructuras de datos",
+          "autor": "Luis Fernando Zapata Alvarez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/estructuras-de-datos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/estructuras-de-datos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/estructuras-de-datos.epub",
+          "nota": null
+        },
+        {
+          "id": "problemas-y-algoritmos",
+          "titulo": "Problemas y Algoritmos",
+          "autor": "Luis E. Vargas Azcona",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/problemas-y-algoritmos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/problemas-y-algoritmos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/problemas-y-algoritmos.epub",
+          "nota": null
+        },
+        {
+          "id": "las-bases-conceptuales-de-la-programacion",
+          "titulo": "Las bases conceptuales de la Programación",
+          "autor": "Pablo E. “Fidel” Martínez López",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/bases-conceptuales-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/bases-conceptuales-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/bases-conceptuales-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-logica-de-programacion",
+          "titulo": "Introducción a la Lógica de Programación",
+          "autor": "Jorge O. Herrera M., Julián E. Gutiérrez P., Robinson Pulgarín G.",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/logica-de-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/logica-de-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/logica-de-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-la-programacion",
+          "titulo": "Fundamentos de la programación",
+          "autor": "Luis Hernández Yáñez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/fundamentos-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/fundamentos-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/fundamentos-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-programacion-orientada-a-objetos",
+          "titulo": "Introducción a la programación orientada a objetos",
+          "autor": "Vicent Moncho Mas",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/introduccion-poo.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/introduccion-poo.pdf",
+          "epubUrl": "https://librosgratis.dev/books/introduccion-poo.epub",
+          "nota": null
+        },
+        {
+          "id": "apuntes-de-estructuras-de-datos-y-algoritmos",
+          "titulo": "Apuntes de Estructuras de Datos y Algoritmos",
+          "autor": "Javier Campos",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/apuntes-estructuras-datos-algoritmos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/apuntes-estructuras-datos-algoritmos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/apuntes-estructuras-datos-algoritmos.epub",
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-informatica-y-programacion",
+          "titulo": "Fundamentos de Informática y Programación",
+          "autor": "Gregorio Martín Quetglás, Francisco Toledo Lobo, Vicente Cerverón Lleó",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://informatica.uv.es/docencia/fguia/TI/Libro/Libro_Fundamentos_Inform_Program.htm",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "analisis-diseno-e-implantacion-de-algoritmos",
+          "titulo": "Análisis, Diseño e Implantación de Algoritmos",
+          "autor": null,
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/analisis-diseno-e-implantacion-de-algoritmos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/analisis-diseno-e-implantacion-de-algoritmos.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "algoritmos-y-programacion-guia-para-docentes",
+          "titulo": "Algoritmos y Programación (Guía para docentes)",
+          "autor": "Juan Carlos López García",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/algoritmos-y-programacion-guia-para-docentes.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/algoritmos-y-programacion-guia-para-docentes.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-programacion-wikilibros",
+          "titulo": "Fundamentos de programación (WikiLibros)",
+          "autor": "WikiLibros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.wikibooks.org/wiki/Fundamentos_de_programaci%C3%B3n",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-programacion-wikilibros",
+          "titulo": "Introducción a la programación (WikiLibros)",
+          "autor": "WikiLibros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.wikibooks.org/wiki/Introducci%C3%B3n_a_la_Programaci%C3%B3n",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tecnicas-de-diseno-de-algoritmos",
+          "titulo": "Técnicas de Diseño de Algoritmos",
+          "autor": "Rosa Guerequeta, Antonio Vallecillo",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://avallecillo.github.io/Libro/indice.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "algoritmos-y-estructuras-de-datos-en-python",
+          "titulo": "Algoritmos y estructuras de datos en Python",
+          "autor": "Walter Bel",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/algoritmos-y-estructuras-de-datos-en-python.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/algoritmos-y-estructuras-de-datos-en-python.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "solucion-de-problemas-con-algoritmos-y-estructuras-de-datos-usando-python",
+          "titulo": "Solución de problemas con algoritmos y estructuras de datos usando Python",
+          "autor": "Brad Miller, David Ranum, traducido por Mauricio Orozco-Alzate",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://runestone.academy/ns/books/published/pythoned/index.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "teoria-de-la-computacion",
+          "titulo": "Teoría de la computación: lenguajes, autómatas, gramáticas",
+          "autor": "Rodrigo De Castro Korgi",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/teoria-de-la-computacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/teoria-de-la-computacion.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "analisis-y-diseno-de-algoritmos-y-tipos-de-datos",
+          "titulo": "Análisis y diseño de algoritmos y tipos de datos",
+          "autor": "Miguel Toro Bonilla",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/analisis-y-diseno-de-algoritmos-y-tipos-de-datos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/analisis-y-diseno-de-algoritmos-y-tipos-de-datos.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "html-css",
+      "titulo": "HTML y CSS",
+      "grupo": "Desarrollo web",
+      "descripcion": "Maquetación, estilos e interfaces web desde fundamentos hasta CSS moderno.",
+      "libros": [
+        {
+          "id": "diseno-de-interfaces-web",
+          "titulo": "Diseño de Interfaces Web",
+          "autor": "Pedro Prieto",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://interfacesweb.github.io/unidades/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "estructura-con-css",
+          "titulo": "Estructura con CSS",
+          "autor": "Learn CSS Layout, traducido al español",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.learnlayout.com/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "mdn-html",
+          "titulo": "MDN: HTML",
+          "autor": "MDN Web Docs",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developer.mozilla.org/es/docs/Web/HTML",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "mdn-css",
+          "titulo": "MDN: CSS",
+          "autor": "MDN Web Docs",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developer.mozilla.org/es/docs/Web/CSS",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-gran-libro-del-diseno-web",
+          "titulo": "El gran libro del diseño web",
+          "autor": "Rither Cobeña C",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://freeditorial.com/es/books/el-gran-libro-del-diseno-web",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-css-web-dev",
+          "titulo": "Aprende CSS (web.dev)",
+          "autor": "Una Kravets, Andy Bell y otros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://web.dev/learn/css/welcome?hl=es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-html-web-dev",
+          "titulo": "Aprende HTML (web.dev)",
+          "autor": "Estelle Weyl",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://web.dev/learn/html/welcome?hl=es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "diseno-adaptable-web-dev",
+          "titulo": "Diseño adaptable (web.dev)",
+          "autor": "Jeremy Keith",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://web.dev/learn/design/welcome?hl=es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "lenguaje-css",
+          "titulo": "Lenguaje CSS",
+          "autor": "Manz",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://lenguajecss.com/css/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "lenguaje-html",
+          "titulo": "Lenguaje HTML",
+          "autor": "Manz",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://lenguajehtml.com/html/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-web-html-css-javascript",
+          "titulo": "Programación Web: HTML, CSS, JavaScript",
+          "autor": "Miguel Ángel Ortuño Pérez",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/programacion-web-html-css-javascript.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/programacion-web-html-css-javascript.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "titulo": "JavaScript",
+      "grupo": "Lenguajes",
+      "descripcion": "La puerta de entrada a la web moderna, desde fundamentos hasta buenas prácticas.",
+      "libros": [
+        {
+          "id": "javascript-elocuente-cuarta-edicion",
+          "titulo": "JavaScript elocuente (Cuarta edición)",
+          "autor": "Marijn Haverbeke",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/javascript-elocuente-cuarta-edicion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/javascript-elocuente-cuarta-edicion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/javascript-elocuente-cuarta-edicion.epub",
+          "nota": null
+        },
+        {
+          "id": "javascript-inspirate",
+          "titulo": "JavaScript, ¡Inspírate!",
+          "autor": "Ulises Gascón",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://javascriptinspirate.ulisesgascon.com/",
+          "pdfUrl": "https://librosgratis.dev/books/javascript-inspirate.pdf",
+          "epubUrl": "https://librosgratis.dev/books/javascript-inspirate.epub",
+          "nota": null
+        },
+        {
+          "id": "javascript-moderno",
+          "titulo": "JavaScript Moderno",
+          "autor": "Ilya Kantor",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.javascript.info/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "you-don-t-know-js-traduccion-al-espanol",
+          "titulo": "You Don’t Know JS (traducción al español)",
+          "autor": "Kyle Simpson, traducido por You-Dont-Know-JS-ES",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/You-Dont-Know-JS-ES/Traduccion",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "mdn-guia-de-javascript",
+          "titulo": "MDN: Guía de JavaScript",
+          "autor": null,
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "learn-javascript",
+          "titulo": "Learn JavaScript",
+          "autor": "Suman Kunwar",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://javascript.sumankunwar.com.np/es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-javascript",
+          "titulo": "Introducción a JavaScript",
+          "autor": "Javier Eguíluz Pérez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/javascript-introduccion-eguiluz.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/javascript-introduccion-eguiluz.pdf",
+          "epubUrl": "https://librosgratis.dev/books/javascript-introduccion-eguiluz.epub",
+          "nota": null
+        },
+        {
+          "id": "javascript",
+          "titulo": "JavaScript",
+          "autor": "Jordi Collell Puig y Anna Ferry Mestres",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/javascript-uoc.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/javascript-uoc.pdf",
+          "epubUrl": "https://librosgratis.dev/books/javascript-uoc.epub",
+          "nota": null
+        },
+        {
+          "id": "asincronismo-en-javascript",
+          "titulo": "Asincronismo en JavaScript",
+          "autor": "Charly Cimino",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/javascript-asincronismo.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/javascript-asincronismo.pdf",
+          "epubUrl": "https://librosgratis.dev/books/javascript-asincronismo.epub",
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-jquery",
+          "titulo": "Fundamentos de jQuery",
+          "autor": "Rebecca Murphey, traducido por Leandro D’Onofrio",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/jquery-fundamentos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/jquery-fundamentos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/jquery-fundamentos.epub",
+          "nota": null
+        },
+        {
+          "id": "css3-y-javascript-avanzado",
+          "titulo": "CSS3 y Javascript avanzado",
+          "autor": "Jordi Collell Puig",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/css3-javascript-avanzado.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/css3-javascript-avanzado.pdf",
+          "epubUrl": "https://librosgratis.dev/books/css3-javascript-avanzado.epub",
+          "nota": null
+        },
+        {
+          "id": "full-stack-open",
+          "titulo": "Full Stack Open",
+          "autor": "Universidad de Helsinki, traducido al español por Sebastian Torres, Cynthia Vico Vacca y Pablo Maffioli",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://fullstackopen.com/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Curso full-stack moderno basado en JavaScript con React, Node.js, MongoDB, GraphQL y TypeScript. La parte 11 de CI/CD está disponible en inglés."
+        },
+        {
+          "id": "clean-code-javascript-en-espanol",
+          "titulo": "Clean Code JavaScript en Español",
+          "autor": "Ryan McDermott, traducido al español por Theodore Anderson",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/andersontr15/clean-code-javascript-es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Guía práctica de buenas prácticas para JavaScript: variables, funciones, clases, SOLID, pruebas, concurrencia, manejo de errores, formato y comentarios."
+        },
+        {
+          "id": "manual-de-javascript",
+          "titulo": "Manual de JavaScript",
+          "autor": null,
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://desarrolloweb.com/manuales/manual-javascript.html#capitulos20",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "javascript-definitivo-vol-i",
+          "titulo": "JavaScript Definitivo Vol. I",
+          "autor": "Ariel Fuggini",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/afuggini/javascript-definitivo-vol1",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutorial-de-d3",
+          "titulo": "Tutorial de D3",
+          "autor": "Scott Murray",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://gcoch.github.io/D3-tutorial/index.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-jquery",
+          "titulo": "Manual de jQuery",
+          "autor": "MundoSICA, et al",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://mundosica.github.io/tutorial_hispano_jQuery/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-javascript-midudev",
+          "titulo": "Aprende JavaScript",
+          "autor": "midudev",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.aprendejavascript.dev/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "lenguaje-js",
+          "titulo": "Lenguaje JS",
+          "autor": "Manz",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://lenguajejs.com/javascript/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-javascript-web-dev",
+          "titulo": "Aprende JavaScript (web.dev)",
+          "autor": "Mat Marquis, Andy Bell",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://web.dev/learn/javascript/introduction?hl=es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "la-guia-del-profesor-frisby",
+          "titulo": "La guía del Profesor Frisby, en su mayor parte adecuada, para la programación funcional",
+          "autor": "Brian Lonsdorf, traducción de la comunidad",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://github.com/MostlyAdequate/mostly-adequate-guide-es",
+          "pdfUrl": "https://librosgratis.dev/books/la-guia-del-profesor-frisby.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "buenas-practicas-de-testing-en-javascript-y-node-js",
+          "titulo": "Buenas prácticas de testing en JavaScript y Node.js",
+          "autor": "Yoni Goldberg, traducido por Miguel G. Sanguino",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-es.md",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "desarrollo-web-en-entorno-cliente-javascript",
+          "titulo": "Desarrollo Web en Entorno Cliente: JavaScript",
+          "autor": "Juan Segura (CIPFP Batoi)",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://cipfpbatoi.github.io/materials/daw/dwc/01-js/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "titulo": "TypeScript",
+      "grupo": "Lenguajes",
+      "descripcion": "Tipos, tooling y confianza para escalar aplicaciones front y back.",
+      "libros": [
+        {
+          "id": "typescript-introduccion-a-typescript",
+          "titulo": "Introducción a TypeScript",
+          "autor": "Emmanuel Valverde Ramos",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://khru.gitbooks.io/typescript/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "typescript-en-profundidad",
+          "titulo": "TypeScript en Profundidad",
+          "autor": "Basarat Ali Syed, traducido por Melissa Rofman",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/melissarofman/typescript-book",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "typescript-introduccion-a-typescript-adictos",
+          "titulo": "Introducción a TypeScript",
+          "autor": "Adictos al Trabajo",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/typescript-introduccion-adictos-trabajo.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/typescript-introduccion-adictos-trabajo.pdf",
+          "epubUrl": "https://librosgratis.dev/books/typescript-introduccion-adictos-trabajo.epub",
+          "nota": null
+        },
+        {
+          "id": "typescript-para-principiantes",
+          "titulo": "TypeScript para Principiantes",
+          "autor": "Envato Tuts+",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/typescript-para-principiantes-envato-tuts.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/typescript-para-principiantes-envato-tuts.pdf",
+          "epubUrl": "https://librosgratis.dev/books/typescript-para-principiantes-envato-tuts.epub",
+          "nota": null
+        },
+        {
+          "id": "manual-de-typescript",
+          "titulo": "Manual de TypeScript",
+          "autor": "Emmanuel Valverde y Pedro Hernández-Mora",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/typescript-manual-valverde.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/typescript-manual-valverde.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "uso-avanzado-de-typescript-en-un-ejemplo-real",
+          "titulo": "Uso avanzado de TypeScript en un ejemplo real",
+          "autor": "Nelio Software",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://neliosoftware.com/es/blog/uso-avanzado-de-typescript/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendizaje-typescript",
+          "titulo": "Aprendizaje TypeScript",
+          "autor": "RipTutorial",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/typescript-aprendizaje.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/typescript-aprendizaje.pdf",
+          "epubUrl": "https://librosgratis.dev/books/typescript-aprendizaje.epub",
+          "nota": null
+        },
+        {
+          "id": "the-concise-typescript-book",
+          "titulo": "The Concise TypeScript Book (en español)",
+          "autor": "Simone Poggiali",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://gibbok.github.io/typescript-book/es-es/book/the-concise-typescript-book/",
+          "pdfUrl": "https://librosgratis.dev/books/the-concise-typescript-book.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "clean-code-typescript",
+          "titulo": "Clean Code TypeScript",
+          "autor": "labs42io, traducido por 3xp1o1t",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/3xp1o1t/clean-code-typescript",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "titulo": "Python",
+      "grupo": "Lenguajes",
+      "descripcion": "Automatización, análisis y backend con una curva de entrada muy amable.",
+      "libros": [
+        {
+          "id": "aprende-python",
+          "titulo": "Aprende Python",
+          "autor": "Sergio Delgado Quintero",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-aprende-sergio-delgado-quintero.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-aprende-sergio-delgado-quintero.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-aprende-sergio-delgado-quintero.epub",
+          "nota": null
+        },
+        {
+          "id": "python-para-todos",
+          "titulo": "Python para todos",
+          "autor": "Raúl González Duque",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-para-todos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-para-todos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-para-todos.epub",
+          "nota": null
+        },
+        {
+          "id": "think-python-en-espanol",
+          "titulo": "Think Python en español",
+          "autor": "Allen B. Downey, traducido por midudev",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://libropython.es/",
+          "pdfUrl": "https://librosgratis.dev/books/think-python-en-espanol.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprenda-a-pensar-como-un-programador-con-python",
+          "titulo": "Aprenda a pensar como un programador con Python",
+          "autor": "Allen Downey, Jeffrey Elkner, Chris Meyers",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-pensar-programador.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-pensar-programador.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-pensar-programador.epub",
+          "nota": null
+        },
+        {
+          "id": "python-para-todos-explorando-la-informacion-con-python-3",
+          "titulo": "Python para todos, Explorando la información con Python 3",
+          "autor": "Charles R. Severance",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-explorando-informacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-explorando-informacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-explorando-informacion.epub",
+          "nota": null
+        },
+        {
+          "id": "manual-basico-iniciacion-a-python-3",
+          "titulo": "Manual básico, iniciación a Python 3",
+          "autor": "José Miguel Ruiz Torres",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-manual-basico.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-manual-basico.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-manual-basico.epub",
+          "nota": null
+        },
+        {
+          "id": "python-intermedio",
+          "titulo": "Python Intermedio",
+          "autor": "Comunidad ellibrodepython.com",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-intermedio.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-intermedio.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-intermedio.epub",
+          "nota": null
+        },
+        {
+          "id": "inmersion-en-python-3",
+          "titulo": "Inmersión en Python 3",
+          "autor": "Mark Pilgrim, traducido por José Miguel González Aguilera",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-inmersion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-inmersion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-inmersion.epub",
+          "nota": null
+        },
+        {
+          "id": "ejercicios-basicos-de-programacion-resueltos-en-python",
+          "titulo": "Ejercicios básicos de programación resueltos en Python",
+          "autor": null,
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-ejercicios-basicos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-ejercicios-basicos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-ejercicios-basicos.epub",
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-python-para-calculo-cientifico",
+          "titulo": "Introducción a Python para cálculo científico",
+          "autor": "A. Garcimartín",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-calculo-cientifico.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-calculo-cientifico.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-calculo-cientifico.epub",
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-programacion-con-python-3",
+          "titulo": "Introducción a la programación con Python 3",
+          "autor": "Andrés Marzal Varó, Isabel Gracia Luengo, Pedro García-Sevilla",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-introduccion-programacion-3.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-introduccion-programacion-3.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-introduccion-programacion-3.epub",
+          "nota": null
+        },
+        {
+          "id": "apuntes-python",
+          "titulo": "Apuntes Python",
+          "autor": "Manuel Vergara",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-apuntes.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-apuntes.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-apuntes.epub",
+          "nota": null
+        },
+        {
+          "id": "inventa-tus-propios-juegos-de-computadora-con-python",
+          "titulo": "Inventa tus propios juegos de computadora con Python",
+          "autor": "Al Sweigart",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/python-inventa-juegos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/python-inventa-juegos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/python-inventa-juegos.epub",
+          "nota": null
+        },
+        {
+          "id": "el-tutorial-de-python",
+          "titulo": "El tutorial de Python",
+          "autor": "Python Software Foundation",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://docs.python.org/es/3/tutorial/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-programando-con-python",
+          "titulo": "Introducción a Programando con Python",
+          "autor": "OpenTechSchool, et al",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://opentechschool.github.io/python-beginners/es_CL/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "python-para-ciencia-e-ingenieria",
+          "titulo": "Python para ciencia e ingeniería",
+          "autor": "Martín Gaitán",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/mgaitan/curso-python-cientifico#curso-de-python-para-ciencias-e-ingenierías",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-python-aprende-con-alf",
+          "titulo": "Manual de Python",
+          "autor": "Alfredo Sánchez Alberca",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://aprendeconalf.es/python-manual/",
+          "pdfUrl": "https://librosgratis.dev/books/manual-de-python-aprende-con-alf.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-python-desde-cero-a-experto",
+          "titulo": "Aprende Python desde cero a experto",
+          "autor": "Jon Vadillo Romero",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://leanpub.com/aprende-python",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendiendo-a-programar-en-python-con-mi-computador",
+          "titulo": "Aprendiendo a Programar en Python con mi Computador",
+          "autor": "Sergio Rojas, Héctor Fernández, Juan Carlos Ruiz",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://open.umn.edu/opentextbooks/textbooks/512",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "ruby",
+      "titulo": "Ruby",
+      "grupo": "Lenguajes",
+      "descripcion": "Sintaxis elegante y una manera de programar muy orientada a la legibilidad.",
+      "libros": [
+        {
+          "id": "aprende-a-programar-con-ruby",
+          "titulo": "Aprende a programar con Ruby",
+          "autor": "RubySur",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://rubysur.org/aprende.a.programar",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ruby-en-veinte-minutos",
+          "titulo": "Ruby en veinte minutos",
+          "autor": "Ruby",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.ruby-lang.org/es/documentation/quickstart/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-rails",
+          "titulo": "Introducción a Rails",
+          "autor": "RubySur",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://rubysur.org/introduccion.a.rails/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ruby-tutorial-o-como-pasar-un-buen-rato-programando",
+          "titulo": "Ruby tutorial o cómo pasar un buen rato programando",
+          "autor": "Andrés Suárez García",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://rubytutorial.wikidot.com/introduccion",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "la-guia-de-estilos-de-ruby",
+          "titulo": "La Guía de Estilos de Ruby",
+          "autor": "Ale Mohamad",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md#preludio",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guias-de-ruby-on-rails",
+          "titulo": "Guías de Ruby on Rails",
+          "autor": "Comunidad de Rails, traducción de las Rails Guides",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://railsguides.es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "titulo": "Rust",
+      "grupo": "Lenguajes",
+      "descripcion": "Rendimiento, seguridad de memoria y una comunidad técnica con mucha calidad.",
+      "libros": [
+        {
+          "id": "aprendizaje-rust",
+          "titulo": "Aprendizaje Rust",
+          "autor": "RipTutorial",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/rust-aprendizaje.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/rust-aprendizaje.pdf",
+          "epubUrl": "https://librosgratis.dev/books/rust-aprendizaje.epub",
+          "nota": null
+        },
+        {
+          "id": "el-lenguaje-de-programacion-rust-2016",
+          "titulo": "El Lenguaje de Programación Rust - 2016",
+          "autor": "Jose Narvaez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://goyox86.github.io/elpr/README.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-lenguaje-de-programacion-rust-2024",
+          "titulo": "El Lenguaje de Programación Rust - 2024",
+          "autor": "Libro oficial traducido por RustLang en Español",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://book.rustlang-es.org",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "comprehensive-rust",
+          "titulo": "Comprehensive Rust",
+          "autor": "Google",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://google.github.io/comprehensive-rust/es/",
+          "pdfUrl": "https://librosgratis.dev/books/comprehensive-rust.pdf",
+          "epubUrl": null,
+          "nota": "Está planteado como workshop, muy útil para estudiar con instructor o en grupo."
+        },
+        {
+          "id": "rust-para-c-net-developers",
+          "titulo": "Rust para C#/.NET Developers",
+          "autor": "Microsoft, traducido por RustLang en Español",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://dotnet-book.rustlang-es.org",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Incluye comparaciones sencillas para entender bien el cambio de mentalidad entre lenguajes."
+        },
+        {
+          "id": "rust-en-espanol-facil",
+          "titulo": "Rust en español fácil",
+          "autor": "Dhghomon, traducido por José Miguel González Aguilera",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.jmgaguilera.com/rust_facil/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tour-de-rust",
+          "titulo": "Tour de Rust",
+          "autor": "Richard Anaya y colaboradores",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://tourofrust.com/00_es.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "blockchain",
+      "titulo": "Blockchain",
+      "grupo": "Lenguajes",
+      "descripcion": "Descentralización, contratos inteligentes y criptografía aplicada.",
+      "libros": [
+        {
+          "id": "bitcoin-un-sistema-de-efectivo-electronico-de-usuario-a-usuario",
+          "titulo": "Bitcoin: Un sistema de efectivo electrónico de usuario a usuario",
+          "autor": "Satoshi Nakamoto",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/bitcoin-un-sistema-de-efectivo-electronico-de-usuario-a-usuario.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/bitcoin-un-sistema-de-efectivo-electronico-de-usuario-a-usuario.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-libro-de-satoshi",
+          "titulo": "El Libro de Satoshi",
+          "autor": "Phil Champagne",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://www.libroblockchain.com/satoshi/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "entendiendo-el-blockchain",
+          "titulo": "Entendiendo el Blockchain",
+          "autor": "SECMCA",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/entendiendo-el-blockchain.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/entendiendo-el-blockchain.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "solidity-documentacion-oficial-en-espanol",
+          "titulo": "Solidity: Documentación oficial en español",
+          "autor": null,
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://solidity-es.readthedocs.io/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendiendo-bitcoin-desde-la-linea-de-comandos",
+          "titulo": "Aprendiendo Bitcoin desde la Línea de Comandos",
+          "autor": "Blockchain Commons, traducción de la comunidad",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/es/README.md",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "libro-blanco-de-ethereum",
+          "titulo": "Libro blanco de Ethereum",
+          "autor": "Vitalik Buterin",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://ethereum.org/es/whitepaper/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "documentacion-para-desarrolladores-de-ethereum",
+          "titulo": "Documentación para desarrolladores de Ethereum",
+          "autor": "Comunidad de ethereum.org",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://ethereum.org/es/developers/docs/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "titulo": "PHP",
+      "grupo": "Lenguajes",
+      "descripcion": "Backend pragmático con mucha historia y recursos excelentes para aprender bien.",
+      "libros": [
+        {
+          "id": "php-la-manera-correcta",
+          "titulo": "PHP, la manera correcta",
+          "autor": "Josh Lockhart, Phil Sturgeon",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://wilsenhc.github.io/php-the-right-way/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-en-php-a-traves-de-ejemplos",
+          "titulo": "Programación en PHP a través de ejemplos",
+          "autor": "Manuel Palomo Duarte, Ildefonso Montero Pérez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/php-programacion-ejemplos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/php-programacion-ejemplos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/php-programacion-ejemplos.epub",
+          "nota": null
+        },
+        {
+          "id": "poo-y-mvc-en-php",
+          "titulo": "POO y MVC en PHP",
+          "autor": "Eugenia Bahit",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/php-poo-mvc.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/php-poo-mvc.pdf",
+          "epubUrl": "https://librosgratis.dev/books/php-poo-mvc.epub",
+          "nota": null
+        },
+        {
+          "id": "laboratorio-de-php-y-mysql",
+          "titulo": "Laboratorio de PHP y MySQL",
+          "autor": "Piero Berni Millet, Dídac Gil de la Iglesia",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/laboratorio-de-php-y-mysql.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/laboratorio-de-php-y-mysql.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "php-y-programacion-orientada-a-objetos",
+          "titulo": "PHP y Programación orientada a objetos",
+          "autor": "Duilio Palacios",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://styde.net/php-y-programacion-orientada-a-objetos/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-web-avanzada-ajax-y-google-maps",
+          "titulo": "Programación web avanzada: Ajax y Google Maps",
+          "autor": "Sergio Luján Mora, Universidad de Colima",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/programacion-web-avanzada-ajax-y-google-maps.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/programacion-web-avanzada-ajax-y-google-maps.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-estudio-introductorio-al-lenguaje-php-procedural",
+          "titulo": "Manual de estudio introductorio al lenguaje PHP procedural",
+          "autor": "Eugenia Bahit",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/manual-de-estudio-introductorio-al-lenguaje-php-procedural.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/manual-de-estudio-introductorio-al-lenguaje-php-procedural.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "symfony-5-la-via-rapida",
+          "titulo": "Symfony: La Vía Rápida",
+          "autor": "Fabien Potencier",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://symfony.com/doc/current/the-fast-track/es/index.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "gu-a-definitiva-de-yii-2-0",
+          "titulo": "Guía Definitiva de Yii 2.0",
+          "autor": "Yii Software",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/guia-definitiva-de-yii-2-0.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/guia-definitiva-de-yii-2-0.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-php",
+          "titulo": "Manual de PHP",
+          "autor": "The PHP Documentation Group",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.php.net/manual/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "clean-code-php",
+          "titulo": "Clean Code PHP",
+          "autor": "Piotr Plenik, traducido por fikoborquez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/fikoborquez/clean-code-php",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "haskell",
+      "titulo": "Haskell",
+      "grupo": "Lenguajes",
+      "descripcion": "Pensamiento funcional duro y puro para expandir cómo entiendes el código.",
+      "libros": [
+        {
+          "id": "piensa-en-haskell",
+          "titulo": "Ejercicios de programación funcional con Haskell",
+          "autor": "José A. Alonso Jiménez, Mª José Hidalgo Doblado",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/haskell-piensa.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/haskell-piensa.pdf",
+          "epubUrl": null,
+          "nota": "Edición de 2022 de «Piensa en Haskell»."
+        },
+        {
+          "id": "aprende-haskell-por-el-bien-de-todos",
+          "titulo": "¡Aprende Haskell por el bien de todos!",
+          "autor": null,
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://aprendehaskell.es/main.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "piensa-en-haskell-y-en-python",
+          "titulo": "Piensa en Haskell y en Python",
+          "autor": "José A. Alonso Jiménez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/haskell-python-ejercicios.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/haskell-python-ejercicios.pdf",
+          "epubUrl": "https://librosgratis.dev/books/haskell-python-ejercicios.epub",
+          "nota": null
+        },
+        {
+          "id": "temas-de-programacion-funcional",
+          "titulo": "Temas de programación funcional",
+          "autor": "José A. Alonso Jiménez",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/temas-de-programacion-funcional.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/temas-de-programacion-funcional.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "golang",
+      "titulo": "Golang",
+      "grupo": "Lenguajes",
+      "descripcion": "Concurrencia, simplicidad y tooling impecable para servicios y utilidades.",
+      "libros": [
+        {
+          "id": "el-pequeno-libro-de-go",
+          "titulo": "El pequeño libro de Go",
+          "autor": "Karl Seguin, traducido por Raúl Exposito",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/go-pequeno-libro.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/go-pequeno-libro.pdf",
+          "epubUrl": "https://librosgratis.dev/books/go-pequeno-libro.epub",
+          "nota": null
+        },
+        {
+          "id": "go-en-espanol",
+          "titulo": "Go en Español",
+          "autor": "Nacho Pacheco",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://nachopacheco.gitbooks.io/go-es/content/doc/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "un-tour-por-go",
+          "titulo": "Un tour por Go",
+          "autor": "Equipo de Go, traducido por Gophers LATAM",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://go-tour-lat.appspot.com/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "go-ya",
+          "titulo": "Go Ya",
+          "autor": "Diego Moisset",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.tutorialesprogramacionya.com/goya/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "kotlin",
+      "titulo": "Kotlin",
+      "grupo": "Lenguajes",
+      "descripcion": "Android moderno y una sintaxis muy agradable para aplicaciones robustas.",
+      "libros": [
+        {
+          "id": "curso-programacion-android-en-kotlin",
+          "titulo": "Curso programación Android en Kotlin",
+          "autor": "AristiDevs",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://cursokotlin.com/curso-programacion-kotlin-android/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "kotlin",
+          "titulo": "Kotlin",
+          "autor": "Stack Overflow Documentation",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/kotlin-stackoverflow-docs.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/kotlin-stackoverflow-docs.pdf",
+          "epubUrl": "https://librosgratis.dev/books/kotlin-stackoverflow-docs.epub",
+          "nota": null
+        },
+        {
+          "id": "kotlin-ya",
+          "titulo": "Kotlin Ya",
+          "autor": "Diego Moisset",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.tutorialesprogramacionya.com/kotlinya/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "dart",
+      "titulo": "Dart",
+      "grupo": "Lenguajes",
+      "descripcion": "Lenguaje de Google para aplicaciones multiplataforma con Flutter, rápido y expresivo.",
+      "libros": [
+        {
+          "id": "programacion-estructurada-y-orientada-a-objetos-con-dart",
+          "titulo": "Programación estructurada y orientada a objetos con Dart",
+          "autor": "Walter Alexander Mata López, Mónica Cobián Alvarado, Armando Román Gallardo, José Román Herrera Morales",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://libros.ucol.mx/index.php/dgp/es/catalog/book/268",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Primer libro de Dart en el catálogo, ideal para arrancar con Flutter."
+        },
+        {
+          "id": "aprendiendo-dart",
+          "titulo": "Aprendiendo Dart",
+          "autor": "Alex García",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://alxgcrz.com/dart.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "android",
+      "titulo": "Android",
+      "grupo": "Plataformas",
+      "descripcion": "Desarrollo de aplicaciones Android con guías prácticas en español.",
+      "libros": [
+        {
+          "id": "manual-programacion-android",
+          "titulo": "Manual Programación Android",
+          "autor": "Salvador Gómez Oliver",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/manual-programacion-android.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/manual-programacion-android.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-sobre-los-aspectos-basicos-de-android-con-compose",
+          "titulo": "Curso sobre los aspectos básicos de Android con Compose",
+          "autor": "Android Developers",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developer.android.com/courses/android-basics-compose/course?hl=es-419",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-programacion-android-v-2-0",
+          "titulo": "Manual de Programación Android v.2.0",
+          "autor": "Salvador Gómez Oliver",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/manual-de-programacion-android-v-2-0.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/manual-de-programacion-android-v-2-0.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "jetpack-compose-para-desarrolladores-de-android",
+          "titulo": "Jetpack Compose para desarrolladores de Android",
+          "autor": "Android Developers",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developer.android.com/courses/jetpack-compose/course?hl=es-419",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "compose-ya",
+          "titulo": "Compose Ya",
+          "autor": "Diego Moisset",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.tutorialesprogramacionya.com/composeya/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "titulo": "C",
+      "grupo": "Lenguajes",
+      "descripcion": "Fundamentos de bajo nivel, memoria y pensamiento cercano al sistema.",
+      "libros": [
+        {
+          "id": "c-introduccion-a-la-programacion-con-c",
+          "titulo": "Introducción a la Programación con C",
+          "autor": "Andrés Marzal Varó, Isabel Gracia Luengo",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/c-introduccion-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/c-introduccion-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/c-introduccion-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "algoritmos-y-tipos-de-datos-en-c",
+          "titulo": "Algoritmos y tipos de datos en C",
+          "autor": "Miguel Toro Bonilla",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/algoritmos-y-tipos-de-datos-en-c.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/algoritmos-y-tipos-de-datos-en-c.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-programacion-en-c-nacho-cabanes",
+          "titulo": "Fundamentos de programación en C",
+          "autor": "Nacho Cabanes",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/fundamentos-de-programacion-en-c-nacho-cabanes.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/fundamentos-de-programacion-en-c-nacho-cabanes.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprenda-lenguaje-ansi-c-como-si-estuviera-en-primero",
+          "titulo": "Aprenda lenguaje ANSI C como si estuviera en primero",
+          "autor": "Javier García de Jalón y otros (Tecnun)",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/aprenda-lenguaje-ansi-c-como-si-estuviera-en-primero.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aprenda-lenguaje-ansi-c-como-si-estuviera-en-primero.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-en-c-wikilibros",
+          "titulo": "Programación en C (WikiLibros)",
+          "autor": "WikiLibros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-en-c-para-principiantes",
+          "titulo": "Programación en C para principiantes",
+          "autor": "Gorka Urrutia",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/programacion-en-c-para-principiantes.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/programacion-en-c-para-principiantes.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "cplusplus",
+      "titulo": "C++",
+      "grupo": "Lenguajes",
+      "descripcion": "Orientación a objetos, eficiencia y bases para software de alto rendimiento.",
+      "libros": [
+        {
+          "id": "c-estandar",
+          "titulo": "C++ estándar",
+          "autor": "Miguel Hernando Gutiérrez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/cpp-estandar.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/cpp-estandar.pdf",
+          "epubUrl": "https://librosgratis.dev/books/cpp-estandar.epub",
+          "nota": null
+        },
+        {
+          "id": "programacion-orientada-a-objetos-ejercicios-propuestos-con-c",
+          "titulo": "Programación orientada a objetos Ejercicios propuestos con C++",
+          "autor": "Cristina Cachero, Pedro J. Ponce de León",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/cpp-poo-ejercicios.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/cpp-poo-ejercicios.pdf",
+          "epubUrl": "https://librosgratis.dev/books/cpp-poo-ejercicios.epub",
+          "nota": null
+        },
+        {
+          "id": "fundamentos-basicos-de-programacion-en-c",
+          "titulo": "Fundamentos Básicos de Programación en C++",
+          "autor": "Francisco Martínez del Río",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/cpp-fundamentos-basicos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/cpp-fundamentos-basicos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/cpp-fundamentos-basicos.epub",
+          "nota": null
+        },
+        {
+          "id": "curso-de-c",
+          "titulo": "Curso de C++",
+          "autor": "Con Clase",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://conclase.net/c/curso",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprenda-c-avanzado-como-si-estuviera-en-primero",
+          "titulo": "Aprenda C++ avanzado como si estuviera en primero",
+          "autor": "Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola, Iñigo Lazcano",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/aprenda-c-avanzado-como-si-estuviera-en-primero.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aprenda-c-avanzado-como-si-estuviera-en-primero.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ejercicios-de-programacion-creativos-y-recreativos-en-c",
+          "titulo": "Ejercicios de programación creativos y recreativos en C++",
+          "autor": "Luis Llana, Carlos Gregorio, Raquel Martínez, Pedro Palao, Cristóbal Pareja",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://antares.sip.ucm.es/cpareja/libroCPP/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprenda-c-basico-como-si-estuviera-en-primero",
+          "titulo": "Aprenda C++ básico como si estuviera en primero",
+          "autor": "Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola, Iñigo Lazcano",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/aprenda-c-basico-como-si-estuviera-en-primero.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aprenda-c-basico-como-si-estuviera-en-primero.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "pensar-en-cpp-volumen-1",
+          "titulo": "Pensar en C++ (Volumen 1)",
+          "autor": "Bruce Eckel, traducido por David Villa y la comunidad CRySoL",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://crysol.org/pensarencpp/vol1/index.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Traducción de la segunda edición, centrada en C++98."
+        },
+        {
+          "id": "fundamentos-de-programacion-con-cpp-uma",
+          "titulo": "Fundamentos de Programación con el Lenguaje de Programación C++",
+          "autor": "Vicente Benjumea, Manuel Roldán",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/cpp-fundamentos-programacion-uma.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/cpp-fundamentos-programacion-uma.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "csharp",
+      "titulo": "C#",
+      "grupo": "Lenguajes",
+      "descripcion": "Programación moderna sobre .NET, desde consola hasta backend web.",
+      "libros": [
+        {
+          "id": "csharp-introduccion-a-la-programacion-con-c",
+          "titulo": "Introducción a la programación con C#",
+          "autor": "Nacho Cabanes",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/csharp-introduccion-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/csharp-introduccion-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/csharp-introduccion-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "el-pequeno-libro-de-asp-net-core",
+          "titulo": "El pequeño libro de ASP.NET Core",
+          "autor": "Nate Barbettini",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/aspnet-core-pequeno-libro.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aspnet-core-pequeno-libro.pdf",
+          "epubUrl": "https://librosgratis.dev/books/aspnet-core-pequeno-libro.epub",
+          "nota": null
+        },
+        {
+          "id": "guia-de-arquitectura-n-capas-orientadas-al-dominio",
+          "titulo": "Guía de Arquitectura N-capas Orientadas al Dominio",
+          "autor": "Cesar De la Torre",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://blogs.msdn.microsoft.com/cesardelatorre/2010/03/11/nuestro-nuevo-libro-guia-de-arquitectura-n-capas-ddd-net-4-0-y-aplicacion-ejemplo-en-disponibles-para-download-en-msdn-y-codeplex",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "documentacion-de-csharp",
+          "titulo": "Documentación de C#",
+          "autor": "Microsoft",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://learn.microsoft.com/es-es/dotnet/csharp/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "microservicios-de-net",
+          "titulo": "Microservicios de .NET: Arquitectura para aplicaciones .NET en contenedor",
+          "autor": "Cesar de la Torre, Bill Wagner, Mike Rousos",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://learn.microsoft.com/es-es/dotnet/architecture/microservices/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "csharp-ya",
+          "titulo": "C# Ya",
+          "autor": "Diego Moisset",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.tutorialesprogramacionya.com/csharpya/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "titulo": "Java",
+      "grupo": "Lenguajes",
+      "descripcion": "Una base muy sólida para aprender orientación a objetos y ecosistemas empresariales.",
+      "libros": [
+        {
+          "id": "fundamentos-de-programacion-en-java",
+          "titulo": "Fundamentos de programación en Java",
+          "autor": "Jorge Martínez Ladrón",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://es.slideshare.net/slideshow/java-fundamentos/23333338",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "iniciando-en-java-programacion-para-todos",
+          "titulo": "Iniciando en Java: Programación para Todos",
+          "autor": "Julián Camilo Tuta Diaz",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/java-iniciando-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/java-iniciando-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/java-iniciando-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "java-apuntes-basicos",
+          "titulo": "Java Apuntes Básicos",
+          "autor": "Jorge A. López Vargas",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/java-apuntes-basicos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/java-apuntes-basicos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/java-apuntes-basicos.epub",
+          "nota": null
+        },
+        {
+          "id": "java-basico-para-aprendices",
+          "titulo": "Java básico para aprendices",
+          "autor": "Manuel Jesús Abanto Morales et al.",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/java-basico-aprendices.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/java-basico-aprendices.pdf",
+          "epubUrl": "https://librosgratis.dev/books/java-basico-aprendices.epub",
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-programacion-orientada-a-objetos-con-java",
+          "titulo": "Introducción a la Programación Orientada a Objetos con Java",
+          "autor": "Rafael Llobet Azpitarte, Pedro Alonso Jordá, Jaume Devesa Llinares, Emili Miedes De Elías, María Idoia Ruiz Fuertes, Francisco Torres Goterris",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/java-introduccion-poo.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/java-introduccion-poo.pdf",
+          "epubUrl": "https://librosgratis.dev/books/java-introduccion-poo.epub",
+          "nota": null
+        },
+        {
+          "id": "ejercicios-de-programacion-en-java",
+          "titulo": "Ejercicios de Programación en Java",
+          "autor": "Francisco Manuel Pérez Montes",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/java-ejercicios-programacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/java-ejercicios-programacion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/java-ejercicios-programacion.epub",
+          "nota": null
+        },
+        {
+          "id": "desarrollando-con-java-8-poker",
+          "titulo": "Desarrollando con Java 8: Poker",
+          "autor": "David Pérez Cabrera",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/desarrollando-con-java-8-poker.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/desarrollando-con-java-8-poker.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "plugin-apache-tapestry-desarrollo-de-aplicaciones-y-paginas-web",
+          "titulo": "PlugIn Apache Tapestry: desarrollo de aplicaciones y páginas web",
+          "autor": null,
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/plugin-apache-tapestry-desarrollo-de-aplicaciones-y-paginas-web.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/plugin-apache-tapestry-desarrollo-de-aplicaciones-y-paginas-web.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "preparando-javasun-6-ocpjp6",
+          "titulo": "Preparando JavaSun 6 - OCPJP6",
+          "autor": "Pablo Reyes Almagro",
+          "formatos": [
+            "PDF",
+            "HTML"
+          ],
+          "url": "https://github.com/PabloReyes/ocpjp-resumen-espanol#ocpjp6-resumen-español",
+          "pdfUrl": "https://librosgratis.dev/books/preparando-javasun-6-ocpjp6.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutorial-basico-de-java-ee",
+          "titulo": "Tutorial básico de Java EE",
+          "autor": "Abraham Otero",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/tutorial-basico-de-java-ee.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/tutorial-basico-de-java-ee.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutorial-introduccion-a-maven-3",
+          "titulo": "Tutorial introducción a Maven 3",
+          "autor": "Erick Camacho",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/tutorial-introduccion-a-maven-3.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/tutorial-introduccion-a-maven-3.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-programacion-java-toro",
+          "titulo": "Fundamentos de programación: Java",
+          "autor": "Miguel Toro Bonilla",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/fundamentos-de-programacion-java-toro.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/fundamentos-de-programacion-java-toro.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-java-nacho-cabanes",
+          "titulo": "Introducción a Java",
+          "autor": "Nacho Cabanes",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/introduccion-a-java-nacho-cabanes.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/introduccion-a-java-nacho-cabanes.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "titulo": "R",
+      "grupo": "Lenguajes",
+      "descripcion": "Análisis de datos y visualización para quien quiere ir directo al insight.",
+      "libros": [
+        {
+          "id": "r-para-ciencia-de-datos",
+          "titulo": "R para Ciencia de Datos (2ª edición)",
+          "autor": "Hadley Wickham, Mine Çetinkaya-Rundel y Garrett Grolemund",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://davidrsch.github.io/r4ds-es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-r",
+          "titulo": "Introducción a R",
+          "autor": "Andrés González y Silvia González",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/r-introduccion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/r-introduccion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/r-introduccion.epub",
+          "nota": null
+        },
+        {
+          "id": "cartas-sobre-estadistica-de-la-revista-argentina-de-bioingenieria",
+          "titulo": "Cartas sobre Estadística de la Revista Argentina de Bioingeniería",
+          "autor": "Marcelo R. Risk",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/cartas-sobre-estadistica-de-la-revista-argentina-de-bioingenieria.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/cartas-sobre-estadistica-de-la-revista-argentina-de-bioingenieria.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "generacion-automatica-de-reportes-con-r-y-latex",
+          "titulo": "Generación automática de reportes con R y LaTeX",
+          "autor": "Mario Alfonso Morales Rivera",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/generacion-automatica-de-reportes-con-r-y-latex.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/generacion-automatica-de-reportes-con-r-y-latex.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "graficos-estadisticos-con-r",
+          "titulo": "Gráficos Estadísticos con R",
+          "autor": "Juan Carlos Correa, Nelfi González",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/graficos-estadisticos-con-r.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/graficos-estadisticos-con-r.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-al-uso-y-programacion-del-sistema-estadistico-r",
+          "titulo": "Introducción al uso y programación del sistema estadístico R",
+          "autor": "Ramón Díaz-Uriarte",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/introduccion-al-uso-y-programacion-del-sistema-estadistico-r.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/introduccion-al-uso-y-programacion-del-sistema-estadistico-r.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "metodos-estadisticos-con-r-y-r-commander",
+          "titulo": "Métodos Estadísticos con R y R Commander",
+          "autor": "Antonio José Sáez Castillo",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/metodos-estadisticos-con-r-y-r-commander.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/metodos-estadisticos-con-r-y-r-commander.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "optimizacion-matematica-con-r-volumen-i",
+          "titulo": "Optimización Matemática con R: Volumen I",
+          "autor": "Enrique Gabriel Baquela, Andrés Redchuk",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/optimizacion-matematica-con-r-volumen-i.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/optimizacion-matematica-con-r-volumen-i.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "r-para-principiantes",
+          "titulo": "R para Principiantes",
+          "autor": "Emmanuel Paradis",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/r-para-principiantes.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/r-para-principiantes.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-ciencia-de-datos-irizarry",
+          "titulo": "Introducción a la ciencia de datos: análisis de datos y algoritmos de predicción con R",
+          "autor": "Rafael A. Irizarry",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://rafalab.dfci.harvard.edu/dslibro/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-ciencia-de-datos-con-r",
+          "titulo": "Fundamentos de ciencia de datos con R",
+          "autor": "Gema Fernández-Avilés, José-María Montero (coords.)",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://cdr-book.github.io/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "prediccion-principios-y-practica",
+          "titulo": "Predicción: Principios y práctica",
+          "autor": "Rob J. Hyndman, George Athanasopoulos",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://otexts.com/fppsp/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "geocomputacion-con-r",
+          "titulo": "Geocomputación con R",
+          "autor": "Robin Lovelace, Jakub Nowosad, Jannes Muenchow",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://r.geocompx.org/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "analizar-datos-politicos",
+          "titulo": "AnalizaR Datos Políticos",
+          "autor": "Francisco Urdinez, Andrés Cruz (eds.)",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://andrescruz.org/libroadp/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ciencia-de-datos-para-gente-sociable",
+          "titulo": "Ciencia de datos para gente sociable",
+          "autor": "Antonio Vazquez Brust",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-r-hernandez-usuga",
+          "titulo": "Manual de R",
+          "autor": "Freddy Hernández, Olga Usuga",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://fhernanb.github.io/Manual-de-R/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "estadistica-aplicada-a-las-ciencias-y-la-ingenieria",
+          "titulo": "Estadística aplicada a las ciencias y la ingeniería",
+          "autor": "Emilio L. Cano",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://emilopezcano.github.io/estadistica-ciencias-ingenieria/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "titulo": "React",
+      "grupo": "Frameworks",
+      "descripcion": "Componentes, estado y patrones para crear interfaces ricas y mantenibles.",
+      "libros": [
+        {
+          "id": "react-de-aprendiz-a-maestro",
+          "titulo": "React: De aprendiz a maestro",
+          "autor": "Raúl Expósito",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/react-aprendiz-maestro.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/react-aprendiz-maestro.pdf",
+          "epubUrl": "https://librosgratis.dev/books/react-aprendiz-maestro.epub",
+          "nota": null
+        },
+        {
+          "id": "react",
+          "titulo": "React",
+          "autor": "Stack Overflow Documentation",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/react-stackoverflow-docs.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/react-stackoverflow-docs.pdf",
+          "epubUrl": "https://librosgratis.dev/books/react-stackoverflow-docs.epub",
+          "nota": null
+        },
+        {
+          "id": "preguntas-de-entrevista-de-react-js",
+          "titulo": "Preguntas de entrevista de React.js",
+          "autor": "Miguel Ángel Durán",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.reactjs.wiki/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "desarrollo-de-aplicaciones-web-con-react-js-y-redux-js",
+          "titulo": "Desarrollo de Aplicaciones Web con React.js y Redux.js",
+          "autor": "Sergio Daniel Xalambrí",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://leanpub.com/read/react-redux",
+          "pdfUrl": "https://librosgratis.dev/books/desarrollo-de-aplicaciones-web-con-react-js-y-redux-js.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-react-documentacion-oficial",
+          "titulo": "Aprende React (documentación oficial)",
+          "autor": "Meta y comunidad de es.react.dev",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.react.dev/learn",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "qwik",
+      "titulo": "Qwik",
+      "grupo": "Frameworks",
+      "descripcion": "Performance extrema y carga diferida para experiencias rapidísimas.",
+      "libros": [
+        {
+          "id": "qwik-desde-cero-a-produccion",
+          "titulo": "Qwik: Desde cero a producción",
+          "autor": "Anartz Mugika",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://qwik-book-spanish.netlify.app/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "titulo": "Node.js",
+      "grupo": "Frameworks",
+      "descripcion": "Backend JavaScript, asincronía y fundamentos para escribir servicios con Node.",
+      "libros": [
+        {
+          "id": "node-beginner-book",
+          "titulo": "Node Beginner Book",
+          "autor": "Manuel Kiessling",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.nodebeginner.org/index-es.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-node-js-a-traves-de-koans",
+          "titulo": "Introducción a Node.js a través de Koans",
+          "autor": "Arturo Muñoz de la Torre",
+          "formatos": [
+            "PDF",
+            "HTML"
+          ],
+          "url": "http://nodejskoans.com",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "buenas-practicas-de-node-js",
+          "titulo": "Buenas prácticas de Node.js",
+          "autor": "Yoni Goldberg y comunidad",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "lenguaje-js-node-js",
+          "titulo": "Lenguaje JS: Node.js",
+          "autor": "Manz",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://lenguajejs.com/nodejs/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "angular",
+      "titulo": "Angular",
+      "grupo": "Frameworks",
+      "descripcion": "Arquitectura frontend con TypeScript, componentes y patrones de aplicación.",
+      "libros": [
+        {
+          "id": "entendiendo-angular",
+          "titulo": "Entendiendo Angular",
+          "autor": "Jorge Cano",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://jorgeucano.gitbook.io/entendiendo-angular/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-angularjs",
+          "titulo": "Manual de AngularJS",
+          "autor": "desarrolloweb.com",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://desarrolloweb.com/manuales/manual-angularjs.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-de-estilo-angularjs",
+          "titulo": "Guía de estilo AngularJS",
+          "autor": "John Papa, et al",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/es-ES.md",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendizaje-angular",
+          "titulo": "Aprendizaje Angular",
+          "autor": "Stack Overflow Documentation",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/aprendizaje-angular.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aprendizaje-angular.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendizaje-angular-2",
+          "titulo": "Aprendizaje Angular 2",
+          "autor": "Stack Overflow Documentation",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/aprendizaje-angular-2.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aprendizaje-angular-2.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "angularjs",
+          "titulo": "AngularJS",
+          "autor": "Elad Rodriguez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://eladrodriguez.gitbooks.io/angularjs",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "documentacion-de-angular-en-espanol",
+          "titulo": "Documentación de Angular en español",
+          "autor": "Google, traducido por Angular Hispano",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://docs.angular.lat/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "django",
+      "titulo": "Django",
+      "grupo": "Frameworks",
+      "descripcion": "Backend web con Python, desde el tutorial oficial hasta proyectos guiados.",
+      "libros": [
+        {
+          "id": "django-documentation",
+          "titulo": "Django documentation",
+          "autor": "Django Software Foundation",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://docs.djangoproject.com/es/stable/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutorial-de-django-girls",
+          "titulo": "Tutorial de Django Girls",
+          "autor": "Django Girls",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://tutorial.djangogirls.org/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutorial-de-django-mdn",
+          "titulo": "Tutorial de Django (MDN)",
+          "autor": "MDN Web Docs",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Extensions/Server-side/Django",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-django-andros-fenollosa",
+          "titulo": "Curso de Django",
+          "autor": "Andros Fenollosa",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://andros.dev/cursos/b74c1a3c/django/1/introduccion/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-django-rest-framework",
+          "titulo": "Curso de Django REST Framework",
+          "autor": "Andros Fenollosa",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://andros.dev/cursos/34b809b2/django-rest-framework/1/introduccion/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "titulo": "Git",
+      "grupo": "Herramientas",
+      "descripcion": "Versionado bien aprendido para colaborar sin miedo a romper nada.",
+      "libros": [
+        {
+          "id": "pro-git",
+          "titulo": "Pro Git",
+          "autor": "Scott Chacon y Ben Straub",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/git-pro.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/git-pro.pdf",
+          "epubUrl": "https://librosgratis.dev/books/git-pro.epub",
+          "nota": null
+        },
+        {
+          "id": "git-la-guia-sencilla",
+          "titulo": "Git, la guía sencilla",
+          "autor": "Roger Dudler",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://rogerdudler.github.io/git-guide/index.es.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "git-immersion-en-espanol",
+          "titulo": "Git Immersion en español",
+          "autor": null,
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://esparta.github.io/gitimmersion-spanish/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "git-magic",
+          "titulo": "Git Magic",
+          "autor": "Ben Lynn",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-git-aprende-con-alf",
+          "titulo": "Manual de Git",
+          "autor": "Alfredo Sánchez Alberca",
+          "formatos": [
+            "HTML",
+            "EPUB"
+          ],
+          "url": "https://aprendeconalf.es/git-manual/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-control-de-versiones-con-git",
+          "titulo": "El Control de Versiones con Git",
+          "autor": "Software Carpentry",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://swcarpentry.github.io/git-novice-es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "reglas-de-vuelo-para-git",
+          "titulo": "Reglas de vuelo para Git",
+          "autor": "Kate Hudson y colaboradores",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/k88hudson/git-flight-rules/blob/master/README_es.md",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutoriales-de-git-atlassian",
+          "titulo": "Tutoriales de Git",
+          "autor": "Atlassian",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.atlassian.com/es/git/tutorials",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "titulo": "Docker",
+      "grupo": "Herramientas",
+      "descripcion": "Contenedores, imágenes, Kubernetes y flujos reproducibles para desarrollo y despliegue.",
+      "libros": [
+        {
+          "id": "docker-en-espanol",
+          "titulo": "Docker en español",
+          "autor": "Bruno Cascio",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/brunocascio/docker-espanol",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-docker",
+          "titulo": "Introducción a Docker",
+          "autor": "RedIRIS",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/docker-introduccion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/docker-introduccion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/docker-introduccion.epub",
+          "nota": null
+        },
+        {
+          "id": "docker-seguro",
+          "titulo": "Docker Seguro",
+          "autor": "Ulises Gascón",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://dockerseguro.ulisesgascon.com/",
+          "pdfUrl": "https://librosgratis.dev/books/docker-seguro.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-docker",
+          "titulo": "Curso de Docker",
+          "autor": "José Domingo Muñoz Rodríguez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/josedom24/curso_docker_ow",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-docker",
+          "titulo": "Guía Docker",
+          "autor": "Ignacio Sanguina",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://denuczi.github.io/guia-docker",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-kubernetes",
+          "titulo": "Introducción a Kubernetes",
+          "autor": "Alberto Molina Coballes, José Domingo Muñoz Rodríguez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/iesgn/curso_kubernetes_cep",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-podman",
+          "titulo": "Curso de Podman",
+          "autor": "José Domingo Muñoz Rodríguez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/josedom24/curso_podman_ow",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "documentacion-de-kubernetes",
+          "titulo": "Documentación de Kubernetes",
+          "autor": "The Kubernetes Authors",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://kubernetes.io/es/docs/home/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Algunas páginas siguen en inglés y aparecen marcadas como (EN)."
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "titulo": "Linux y terminal",
+      "grupo": "Herramientas",
+      "descripcion": "Sistema, shell y fundamentos para moverte con soltura en entornos Unix.",
+      "libros": [
+        {
+          "id": "el-libro-del-administrador-de-debian",
+          "titulo": "El libro del administrador de Debian",
+          "autor": "Raphaël Hertzog y Roland Mas",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://debian-handbook.info/browse/es-ES/stable/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-manual-de-bash-scripting-basico-para-principiantes",
+          "titulo": "El Manual de BASH Scripting Básico para Principiantes",
+          "autor": "Wikilibros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "bash-scripting-avanzado-utilizando-declare-para-definicion-de-tipo",
+          "titulo": "BASH Scripting Avanzado: Utilizando Declare para definición de tipo",
+          "autor": "Eugenia Bahit",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://web.archive.org/web/20150307181233/http://library.originalhacker.org:80/biblioteca/articulo/ver/123",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "la-linea-de-comandos-de-linux",
+          "titulo": "La línea de comandos de Linux",
+          "autor": "William Shotts, traducido por Adriano Sánchez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/la-linea-de-comandos-de-linux.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/la-linea-de-comandos-de-linux.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-de-referencia-de-debian",
+          "titulo": "Guía de referencia de Debian",
+          "autor": "Osamu Aoki",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://www.debian.org/doc/manuals/debian-reference/index.es.html",
+          "pdfUrl": "https://librosgratis.dev/books/guia-de-referencia-de-debian.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "la-terminal-de-unix",
+          "titulo": "La Terminal de Unix",
+          "autor": "Software Carpentry",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://swcarpentry.github.io/shell-novice-es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "administracion-de-sistemas-gnu-linux",
+          "titulo": "Administración de sistemas GNU/Linux",
+          "autor": "Josep Jorba Esteve, Remo Suppi Boldrito",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://openaccess.uoc.edu/handle/10609/60688",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "administracion-avanzada-del-sistema-operativo-gnu-linux",
+          "titulo": "Administración avanzada del sistema operativo GNU/Linux",
+          "autor": "Josep Jorba Esteve, Remo Suppi Boldrito",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://openaccess.uoc.edu/handle/10609/60686",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "titulo": "SQL",
+      "grupo": "Bases de datos",
+      "descripcion": "Consultas, modelado y fundamentos imprescindibles para cualquier stack.",
+      "libros": [
+        {
+          "id": "tutorial-de-sql",
+          "titulo": "Tutorial de SQL",
+          "autor": "Rubén Alvarez",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://www.desarrolloweb.com/manuales/9/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-sql",
+          "titulo": "Manual de SQL",
+          "autor": "Jorge Sanchez Asenjo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://jorgesanchez.net/manuales/sql/intro-sql-sql2016.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "apuntes-basicos-de-sql",
+          "titulo": "Apuntes básicos de SQL",
+          "autor": "Unai Estébanez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/sql-apuntes-basicos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/sql-apuntes-basicos.pdf",
+          "epubUrl": "https://librosgratis.dev/books/sql-apuntes-basicos.epub",
+          "nota": null
+        },
+        {
+          "id": "introduccion-al-diseno-de-bases-de-datos",
+          "titulo": "Introducción al diseño de bases de datos",
+          "autor": "Jordi Casas Roma",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/bases-datos-diseno-introduccion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/bases-datos-diseno-introduccion.pdf",
+          "epubUrl": "https://librosgratis.dev/books/bases-datos-diseno-introduccion.epub",
+          "nota": null
+        },
+        {
+          "id": "base-de-datos-2005",
+          "titulo": "Base de Datos (2005)",
+          "autor": null,
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/base-de-datos-2005.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/base-de-datos-2005.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "apuntes-de-base-de-datos-1",
+          "titulo": "Apuntes de Base de Datos 1",
+          "autor": null,
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/apuntes-de-base-de-datos-1.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/apuntes-de-base-de-datos-1.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "bases-de-datos-relacionales-unimagdalena",
+          "titulo": "Bases de datos relacionales. Un enfoque aplicado y orientado a resultados de aprendizaje",
+          "autor": "Ernesto Galvis Lista, Alexander Bustamante Martínez",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/bases-de-datos-relacionales-unimagdalena.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/bases-de-datos-relacionales-unimagdalena.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "bases-de-datos-jose-juan-sanchez",
+          "titulo": "Bases de Datos",
+          "autor": "José Juan Sánchez Hernández",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://josejuansanchez.org/bd/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-de-administracion-basica-de-postgresql",
+          "titulo": "Guía de Administración Básica de PostgreSQL",
+          "autor": "Diego Nieto",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/lesandie/guia-postgres",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-de-bases-de-datos",
+          "titulo": "Guía de bases de datos",
+          "autor": "Juan Jara",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://learn-stack-seven.vercel.app/guides/database/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "nosql",
+      "titulo": "NoSQL",
+      "grupo": "Bases de datos",
+      "descripcion": "MongoDB, Redis y modelos no relacionales para ampliar la caja de herramientas.",
+      "libros": [
+        {
+          "id": "el-pequeno-libro-de-mongodb",
+          "titulo": "El pequeño libro de MongoDB",
+          "autor": "Karl Seguin, traducido por Osledy Bazo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/uokesita/the-little-mongodb-book",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-pequeno-libro-de-redis-en-castellano",
+          "titulo": "El pequeño libro de Redis en castellano",
+          "autor": "Karl Seguin, traducido por Raúl Expósito",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://raulexposito.com/the-little-redis-book-en-castellano.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendizaje-amazon-dynamodb",
+          "titulo": "Aprendizaje amazon-dynamodb",
+          "autor": "Stack Overflow Documentation",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/aprendizaje-amazon-dynamodb.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/aprendizaje-amazon-dynamodb.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "nosql-y-mongodb-aitor-medrano",
+          "titulo": "NoSQL y MongoDB",
+          "autor": "Aitor Medrano",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://aitor-medrano.github.io/iabd/sa/nosql.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "sistemas-operativos",
+      "titulo": "Sistemas operativos",
+      "grupo": "Fundamentos",
+      "descripcion": "Procesos, memoria, archivos y concurrencia para entender qué hay debajo del stack.",
+      "libros": [
+        {
+          "id": "sistemas-operativos",
+          "titulo": "Sistemas Operativos",
+          "autor": "Gunnar Wolf, Esteban Ruiz, Federico Bergero, Erwin Meza",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/sistemas-operativos-wolf.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/sistemas-operativos-wolf.pdf",
+          "epubUrl": "https://librosgratis.dev/books/sistemas-operativos-wolf.epub",
+          "nota": null
+        },
+        {
+          "id": "fundamentos-de-sistemas-operativos-linux",
+          "titulo": "Fundamentos de Sistemas Operativos: una aproximación práctica usando Linux",
+          "autor": "Enrique Soriano Salvador, Gorka Guardiola Múzquiz",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/fundamentos-de-sistemas-operativos-linux.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/fundamentos-de-sistemas-operativos-linux.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-los-sistemas-operativos",
+          "titulo": "Introducción a los Sistemas Operativos",
+          "autor": "Daniel Isaías Peralta",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/introduccion-a-los-sistemas-operativos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/introduccion-a-los-sistemas-operativos.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "scripts-en-powershell-guia-para-principiantes",
+          "titulo": "Scripts en PowerShell: Guía para principiantes",
+          "autor": "Pedro Ruiz",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://somebooks.es/scripts-powershell-guia-principiantes/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "titulo": "Inteligencia Artificial",
+      "grupo": "IA y datos",
+      "descripcion": "Aprendizaje automático, LLMs, agentes y razonamiento computacional.",
+      "libros": [
+        {
+          "id": "inteligencia-artificial-un-enfoque-moderno",
+          "titulo": "Libro online de IAAR",
+          "autor": "Raúl E. López Briega (IAAR)",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://iaarbook.github.io/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-intensivo-de-aprendizaje-automatico",
+          "titulo": "Curso intensivo de aprendizaje automático",
+          "autor": "Google",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://developers.google.com/machine-learning/crash-course?hl=es-419",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-agentes-de-ia-hugging-face",
+          "titulo": "Curso de Agentes de IA",
+          "autor": "Hugging Face y comunidad",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://huggingface.co/learn/agents-course/es/unit0/introduction",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-llm-hugging-face",
+          "titulo": "Curso de LLM",
+          "autor": "Hugging Face y comunidad",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://huggingface.co/learn/llm-course/es/chapter1/1",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "La traducción al español es parcial."
+        },
+        {
+          "id": "aprende-machine-learning-en-espanol",
+          "titulo": "Aprende Machine Learning en Español",
+          "autor": "Juan Ignacio Bagnato",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://leanpub.com/aprendeml",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendizaje-automatico-interpretable",
+          "titulo": "Aprendizaje automático interpretable",
+          "autor": "Christoph Molnar, traducido por Federico Fliguer",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://fedefliguer.github.io/AAI/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "machine-learning-book-huijse",
+          "titulo": "Machine Learning Book (Aprendizaje de Máquinas)",
+          "autor": "Pablo Huijse",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://phuijse.github.io/MachineLearningBook/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprendizaje-automatico-urjc",
+          "titulo": "Aprendizaje Automático",
+          "autor": "Carmen Lancho, Isaac Martín de Diego",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://urjcdslab.github.io/AprendizajeAutomaticoI/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "metodos-predictivos-de-aprendizaje-estadistico",
+          "titulo": "Métodos predictivos de aprendizaje estadístico",
+          "autor": "Rubén Fernández Casal, Julián Costa, Manuel Oviedo",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://rubenfcasal.github.io/aprendizaje_estadistico/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "elements-of-ai",
+          "titulo": "Elements of AI",
+          "autor": "Universidad de Helsinki y MinnaLearn",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://course.elementsofai.com/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-developer-agentico",
+          "titulo": "El Developer Agéntico",
+          "autor": "Bezael Pérez (Dominicode)",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://domini-code.github.io/el-developer-agentico/",
+          "pdfUrl": "https://librosgratis.dev/books/el-developer-agentico.pdf",
+          "epubUrl": "https://librosgratis.dev/books/el-developer-agentico.epub",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "metodologias",
+      "titulo": "Metodologías de desarrollo",
+      "grupo": "Fundamentos",
+      "descripcion": "Scrum, XP y prácticas de equipo para construir software de forma sostenible.",
+      "libros": [
+        {
+          "id": "guia-scrum",
+          "titulo": "Guía Scrum",
+          "autor": "EuropeanScrum.org",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/guia-scrum-european.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/guia-scrum-european.pdf",
+          "epubUrl": "https://librosgratis.dev/books/guia-scrum-european.epub",
+          "nota": null
+        },
+        {
+          "id": "scrum-y-xp-desde-las-trincheras",
+          "titulo": "Scrum y XP desde las trincheras",
+          "autor": "Henrik Kniberg",
+          "formatos": [
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://librosgratis.dev/books/scrum-y-xp-desde-las-trincheras.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/scrum-y-xp-desde-las-trincheras.pdf",
+          "epubUrl": "https://librosgratis.dev/books/scrum-y-xp-desde-las-trincheras.epub",
+          "nota": null
+        },
+        {
+          "id": "ingenieria-de-software-una-guia-para-crear-sistemas-de-informacion",
+          "titulo": "Ingeniería de Software: Una Guía para Crear Sistemas de Información",
+          "autor": "Alejandro Peña Ayala",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/ingenieria-de-software-una-guia-para-crear-sistemas-de-informacion.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/ingenieria-de-software-una-guia-para-crear-sistemas-de-informacion.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "scrum-level",
+          "titulo": "Scrum Level",
+          "autor": "Juan Palacio, Scrum Manager",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://scrumlevel.com/files/scrumlevel.pdf",
+          "pdfUrl": "https://scrumlevel.com/files/scrumlevel.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "scrum-master-temario-troncal-1",
+          "titulo": "Scrum Master - Temario troncal 1",
+          "autor": "Marta Palacio, Scrum Manager",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/scrum-master-temario-troncal-1.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/scrum-master-temario-troncal-1.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "scrum-extreme-programming-para-programadores",
+          "titulo": "Scrum & Extreme Programming (para programadores)",
+          "autor": "Eugenia Bahit",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/scrum-extreme-programming-para-programadores.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/scrum-extreme-programming-para-programadores.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "la-guia-de-scrum-2020",
+          "titulo": "La Guía de Scrum (2020)",
+          "autor": "Ken Schwaber, Jeff Sutherland",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/la-guia-de-scrum-2020.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/la-guia-de-scrum-2020.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "la-guia-kanban",
+          "titulo": "La Guía Kanban",
+          "autor": "John Coleman, Daniel Vacanti",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/la-guia-kanban.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/la-guia-kanban.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "kanban-y-scrum",
+          "titulo": "Kanban y Scrum: obteniendo lo mejor de ambos",
+          "autor": "Henrik Kniberg, Mattias Skarin",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/kanban-y-scrum.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/kanban-y-scrum.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ingenieria-del-software-uoc",
+          "titulo": "Ingeniería del software",
+          "autor": "J. Pradel, J. A. Raya y otros (UOC)",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://openaccess.uoc.edu/handle/10609/69245",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "the-twelve-factor-app",
+          "titulo": "The Twelve-Factor App",
+          "autor": "Adam Wiggins y otros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://12factor.net/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "ensamblador",
+      "titulo": "Ensamblador",
+      "grupo": "Lenguajes",
+      "descripcion": "Programación a bajo nivel y arquitectura de la máquina con ensamblador.",
+      "libros": [
+        {
+          "id": "lenguaje-ensamblador-para-pc",
+          "titulo": "Lenguaje Ensamblador para PC",
+          "autor": "Paul A. Carter",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/lenguaje-ensamblador-para-pc.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/lenguaje-ensamblador-para-pc.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-arquitectura-de-computadores-con-qtarmsim-y-arduino",
+          "titulo": "Introducción a la Arquitectura de Computadores con QtARMSim y Arduino",
+          "autor": "Sergio Barrachina Mir y otros (Universitat Jaume I)",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/introduccion-a-la-arquitectura-de-computadores-con-qtarmsim-y-arduino.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/introduccion-a-la-arquitectura-de-computadores-con-qtarmsim-y-arduino.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-en-ensamblador-x86-64",
+          "titulo": "Programación en ensamblador (x86-64)",
+          "autor": "Miquel Albert Orenga, Gerard Enrique Manonellas",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/programacion-en-ensamblador-x86-64.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/programacion-en-ensamblador-x86-64.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "practicas-de-ensamblador-basadas-en-raspberry-pi",
+          "titulo": "Prácticas de ensamblador basadas en Raspberry Pi",
+          "autor": "A. J. Villena Godoy, R. Asenjo Plaza, F. J. Corbera Peña",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/practicas-de-ensamblador-basadas-en-raspberry-pi.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/practicas-de-ensamblador-basadas-en-raspberry-pi.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "el-microcontrolador-atmega328p-de-microchip",
+          "titulo": "El Microcontrolador ATMega328P de Microchip: Programación en Ensamblador, Lenguaje C y un enlace con Arduino",
+          "autor": "Felipe Santiago Espinosa",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/atmega328p-ensamblador-c-arduino.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/atmega328p-ensamblador-c-arduino.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "erlang",
+      "titulo": "Erlang",
+      "grupo": "Lenguajes",
+      "descripcion": "Concurrencia, tolerancia a fallos y sistemas distribuidos con Erlang y Elixir.",
+      "libros": [
+        {
+          "id": "programacion-en-erlang",
+          "titulo": "Programación en Erlang",
+          "autor": "WikiLibros",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Erlang",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "elixir-school",
+          "titulo": "Elixir School",
+          "autor": "Comunidad Elixir School",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://elixirschool.com/es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "latex",
+      "titulo": "LaTeX",
+      "grupo": "Herramientas",
+      "descripcion": "Composición de documentos técnicos y científicos con LaTeX.",
+      "libros": [
+        {
+          "id": "la-introduccion-no-tan-corta-a-latex-2",
+          "titulo": "La introducción no-tan-corta a LaTeX 2ε",
+          "autor": "Tobias Oetiker, Hubert Partl, Irene Hyna, Elisabeth Schlegl",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/la-introduccion-no-tan-corta-a-latex-2.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/la-introduccion-no-tan-corta-a-latex-2.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "edicion-de-textos-cientificos-con-latex",
+          "titulo": "Edición de textos científicos con LaTeX",
+          "autor": "Alexander Borbón A., Walter Mora F.",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/edicion-de-textos-cientificos-con-latex.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/edicion-de-textos-cientificos-con-latex.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "manual-de-latex-aprende-con-alf",
+          "titulo": "Manual de LaTeX",
+          "autor": "Alfredo Sánchez Alberca",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://aprendeconalf.es/latex-manual/",
+          "pdfUrl": "https://librosgratis.dev/books/manual-de-latex-aprende-con-alf.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "aprende-latex-learnlatex",
+          "titulo": "Aprende LaTeX (learnlatex.org)",
+          "autor": "Equipo de learnlatex.org",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://www.learnlatex.org/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-de-latex-para-ingenieros-electricos-y-electronicos",
+          "titulo": "Curso de LaTeX para ingenieros eléctricos y electrónicos",
+          "autor": "José Manuel Aller Castro",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://abyayala.ups.edu.ec/index.php/abayayala/catalog/book/170",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "latex2e-un-manual-de-referencia-extraoficial",
+          "titulo": "LaTeX2e: un manual de referencia extraoficial",
+          "autor": "Karl Berry y colaboradores",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://mirrors.ctan.org/info/latex2e-help-texinfo/spanish/latex2e-es.html",
+          "pdfUrl": "https://librosgratis.dev/books/latex2e-un-manual-de-referencia-extraoficial.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lisp",
+      "titulo": "Lisp",
+      "grupo": "Lenguajes",
+      "descripcion": "Programación funcional y metaprogramación con la familia Lisp.",
+      "libros": [
+        {
+          "id": "una-introduccion-a-emacs-lisp-en-espanol",
+          "titulo": "Una introducción a la programación en Emacs Lisp",
+          "autor": "Robert J. Chassell, traducido por nasciiboy",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://github.com/nasciiboy/emacs-lisp-intro-es",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "don-clojure-de-la-mancha",
+          "titulo": "Don Clojure de la Mancha",
+          "autor": "Andros Fenollosa",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://andros.dev/book/don-clojure-de-la-mancha/1/prologo/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "preplai-scheme-y-programacion-funcional",
+          "titulo": "PrePLAI: Scheme y Programación Funcional",
+          "autor": "Éric Tanter",
+          "formatos": [
+            "HTML",
+            "PDF"
+          ],
+          "url": "https://users.dcc.uchile.cl/~etanter/preplai/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "matematicas",
+      "titulo": "Matemáticas",
+      "grupo": "Fundamentos",
+      "descripcion": "Herramientas matemáticas aplicadas a la programación y la ciencia de datos.",
+      "libros": [
+        {
+          "id": "sage-para-estudiantes-de-pregrado",
+          "titulo": "Sage para Estudiantes de Pregrado",
+          "autor": "Gregory Bard",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://www.sage-para-estudiantes.com",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "temas-de-logica-informatica",
+          "titulo": "Temas de Lógica informática",
+          "autor": "José A. Alonso Jiménez, Andrés Cordón Franco, María J. Hidalgo Doblado",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/temas-de-logica-informatica.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/temas-de-logica-informatica.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-la-matematica-discreta",
+          "titulo": "Introducción a la Matemática Discreta",
+          "autor": "Emmanuel Briand",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/matematica-discreta-briand.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/matematica-discreta-briand.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "un-curso-de-algebra-lineal",
+          "titulo": "Un Curso de Álgebra Lineal (con un módulo para Python)",
+          "autor": "Marcos Bujosa",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/un-curso-de-algebra-lineal.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/un-curso-de-algebra-lineal.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "teoria-de-numeros-ejemplos-y-algoritmos",
+          "titulo": "Teoría de Números: ejemplos y algoritmos",
+          "autor": "Walter Mora F.",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/teoria-de-numeros-ejemplos-y-algoritmos.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/teoria-de-numeros-ejemplos-y-algoritmos.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "introduccion-a-los-metodos-numericos-con-r",
+          "titulo": "Introducción a los Métodos Numéricos: implementaciones en R",
+          "autor": "Walter Mora F.",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/introduccion-a-los-metodos-numericos-con-r.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/introduccion-a-los-metodos-numericos-con-r.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "metodos-numericos-con-python",
+          "titulo": "Métodos numéricos con Python",
+          "autor": "D. Arévalo, M. Á. Bernal, J. A. Posada",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/metodos-numericos-con-python.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/metodos-numericos-con-python.pdf",
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "perl",
+      "titulo": "Perl",
+      "grupo": "Lenguajes",
+      "descripcion": "Textos, scripts y automatización con el clásico lenguaje Perl.",
+      "libros": [
+        {
+          "id": "tutorial-perl",
+          "titulo": "Tutorial Perl",
+          "autor": "Juan Julián Merelo Guervós",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/tutorial-perl.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/tutorial-perl.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tutoriales-de-perl",
+          "titulo": "Tutoriales de Perl",
+          "autor": "Uriel Lizama",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://perlenespanol.com/tutoriales/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "una-introduccion-a-perl",
+          "titulo": "Principios de Programación Imperativa, Funcional y Orientada a Objetos. Una Introducción a Perl",
+          "autor": "Casiano R. León",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/una-introduccion-a-perl.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/una-introduccion-a-perl.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "documentacion-de-perl-en-espanol",
+          "titulo": "Documentación de Perl en español (POD2::ES)",
+          "autor": "Proyecto perldocES",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://metacpan.org/dist/POD2-ES/view/lib/POD2/ES/perlintro.pod",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "raku",
+      "titulo": "Raku",
+      "grupo": "Lenguajes",
+      "descripcion": "Perl 6 / Raku: un lenguaje moderno para expresión y metaprogramación.",
+      "libros": [
+        {
+          "id": "piensa-en-perl-6",
+          "titulo": "Piensa en Raku",
+          "autor": "Laurent Rosenfeld, Allen B. Downey",
+          "formatos": [
+            "PDF",
+            "HTML"
+          ],
+          "url": "https://uzluisf.gitlab.io/piensa-raku/",
+          "pdfUrl": "https://librosgratis.dev/books/piensa-en-raku.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-de-raku",
+          "titulo": "Guía de Raku",
+          "autor": "Naoum Hankache, traducido por Ramiro Encinas",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://raku.guide/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "curso-completo-de-raku",
+          "titulo": "Curso completo del lenguaje de programación Raku",
+          "autor": "Andrew Shitov",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://course.raku.org/es/",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "scala",
+      "titulo": "Scala",
+      "grupo": "Lenguajes",
+      "descripcion": "Programación funcional y orientada a objetos sobre la JVM con Scala.",
+      "libros": [
+        {
+          "id": "manual-de-scala-para-programadores-java",
+          "titulo": "Manual de Scala para programadores Java",
+          "autor": "Michel Schinz, Philipp Haller",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/manual-de-scala-para-programadores-java.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/manual-de-scala-para-programadores-java.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tour-de-scala",
+          "titulo": "Tour de Scala",
+          "autor": "Documentación oficial de Scala",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://docs.scala-lang.org/es/tour/tour-of-scala.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "programacion-funcional-para-mortales-con-scalaz",
+          "titulo": "Programación Funcional para Mortales con Scalaz",
+          "autor": "Sam Halliday, traducido por Oscar Vargas Torres",
+          "formatos": [
+            "HTML",
+            "PDF",
+            "EPUB"
+          ],
+          "url": "https://leanpub.com/fpmortals-es/read",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": "Usa Scala 2 y Scalaz."
+        }
+      ]
+    },
+    {
+      "id": "scratch",
+      "titulo": "Scratch",
+      "grupo": "Fundamentos",
+      "descripcion": "Primeros pasos en programación visual y pensamiento computacional.",
+      "libros": [
+        {
+          "id": "informatica-creativa",
+          "titulo": "Computación Creativa con Scratch 3.0 (Guía curricular)",
+          "autor": "Karen Brennan y el equipo ScratchEd de Harvard, adaptado por Fundación Cruzando",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/computacion-creativa-scratch-3.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/computacion-creativa-scratch-3.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "actividades-para-aprender-a-program-ar",
+          "titulo": "Actividades para aprender a Program.AR (3ª edición)",
+          "autor": "Fundación Sadosky",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/actividades-para-aprender-a-program-ar.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/actividades-para-aprender-a-program-ar.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ciencias-de-la-computacion-para-el-aula",
+          "titulo": "Ciencias de la Computación para el aula: 2º ciclo de primaria",
+          "autor": "Program.AR, Fundación Sadosky",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/ciencias-de-la-computacion-para-el-aula.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/ciencias-de-la-computacion-para-el-aula.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "guia-de-referencia-de-scratch-3",
+          "titulo": "Guía de Referencia de Scratch 3.0",
+          "autor": "Juan Carlos López García",
+          "formatos": [
+            "PDF"
+          ],
+          "url": "https://librosgratis.dev/books/guia-de-referencia-de-scratch-3.pdf",
+          "pdfUrl": "https://librosgratis.dev/books/guia-de-referencia-de-scratch-3.pdf",
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "ensena-pensamiento-computacional-con-scratch",
+          "titulo": "Enseña Pensamiento Computacional con Scratch",
+          "autor": "Javier Quintana Peiró, Ana Mª López Floría (CATEDU)",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://libros.catedu.es/books/ensena-pensamiento-computacional-con-scratch",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "subversion",
+      "titulo": "Subversion",
+      "grupo": "Herramientas",
+      "descripcion": "Control de versiones centralizado con Subversion (SVN).",
+      "libros": [
+        {
+          "id": "control-de-versiones-con-subversion",
+          "titulo": "Control de versiones con Subversion",
+          "autor": "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "http://svnbook.red-bean.com/nightly/es/index.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        },
+        {
+          "id": "tortoisesvn-un-cliente-de-subversion-para-windows",
+          "titulo": "TortoiseSVN: un cliente de Subversion para Windows",
+          "autor": "Stefan Küng, Lübbe Onken, Simon Large",
+          "formatos": [
+            "HTML"
+          ],
+          "url": "https://tortoisesvn.net/docs/release/TortoiseSVN_es/index.html",
+          "pdfUrl": null,
+          "epubUrl": null,
+          "nota": null
+        }
+      ]
+    }
+  ]
+}
