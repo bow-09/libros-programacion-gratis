@@ -1,0 +1,277 @@
+{
+  "rutas": [
+    {
+      "id": "dart-fundamentos",
+      "titulo": "Fundamentos de Dart",
+      "descripcion": "El lenguaje detrás de Flutter: variables, tipos, funciones y colecciones, con práctica en cada paso.",
+      "nivel": "Principiante",
+      "libros": [
+        "aprendiendo-dart",
+        "programacion-estructurada-y-orientada-a-objetos-con-dart"
+      ],
+      "modulos": [
+        {
+          "id": "dart-m1",
+          "titulo": "1. Variables y tipos",
+          "lecciones": [
+            {
+              "id": "dart-m1-l1",
+              "titulo": "Tu primer programa",
+              "tipo": "teoria",
+              "contenido": "Todo programa en Dart empieza en la función `main`:\n\n```dart\nvoid main() {\n  print('Hola, meta-code');\n}\n```\n\n- `void` indica que la función no devuelve nada.\n- `print` escribe un texto en la consola.\n- Cada instrucción termina en punto y coma.\n\n**Por qué importa:** Dart necesita un único punto de entrada para saber por dónde empezar. Una app de Flutter también arranca en `main`; solo cambia lo que hay dentro.\n\nPuedes probar cualquier ejemplo de esta ruta, sin instalar nada, en [dartpad.dev](https://dartpad.dev)."
+            },
+            {
+              "id": "dart-m1-l2",
+              "titulo": "Variables, tipos y null safety",
+              "tipo": "teoria",
+              "contenido": "Una variable guarda un valor con un tipo:\n\n```dart\nString nombre = 'Ada';\nint edad = 36;\ndouble altura = 1.65;\nbool activa = true;\n```\n\nSi el valor inicial deja claro el tipo, puedes escribir `var` y Dart lo deduce:\n\n```dart\nvar ciudad = 'Londres'; // String\n```\n\n### `final` y `const`\n\n- `final`: se asigna una sola vez, mientras el programa corre.\n- `const`: su valor se conoce ya al compilar.\n\n```dart\nfinal ahora = DateTime.now(); // solo se sabe al ejecutar\nconst pi = 3.1416;            // se sabe siempre\n```\n\n### Null safety\n\nPor defecto una variable **no puede** valer `null`. Si necesitas que pueda, añade `?` al tipo:\n\n```dart\nString? apodo;                  // puede ser null\nprint(apodo?.length);           // null: `?.` no falla si apodo es null\nprint(apodo ?? 'sin apodo');    // `??` da un valor alternativo\n```\n\n**Por qué importa:** el error más común en muchos lenguajes es usar un valor que no existe. Dart te obliga a decidirlo al escribir el código, no cuando la app ya falló en manos del usuario."
+            },
+            {
+              "id": "dart-m1-l3",
+              "titulo": "Práctica: ficha de usuario",
+              "tipo": "practica",
+              "contenido": "Escribe un programa que:\n\n1. Guarde un nombre (`String`), un año de nacimiento (`int`) y un apodo que **puede no existir**.\n2. Calcule la edad que cumple la persona en 2026.\n3. Imprima: `Ada (la Condesa) cumple 211 años`. Si no hay apodo, debe imprimir `sin apodo` entre los paréntesis.\n\nPista: dentro de un texto puedes insertar valores con `$variable` o `${expresion}`.",
+              "solucion": "```dart\nvoid main() {\n  const nombre = 'Ada';\n  const nacimiento = 1815;\n  String? apodo = 'la Condesa';\n\n  final edad = 2026 - nacimiento;\n  print('$nombre (${apodo ?? 'sin apodo'}) cumple $edad años');\n}\n```\n\nPrueba a cambiar `apodo` por `null` y comprueba que el programa sigue funcionando."
+            },
+            {
+              "id": "dart-m1-l4",
+              "titulo": "Cuestionario: variables y tipos",
+              "tipo": "quiz",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué diferencia hay entre `final` y `const`?",
+                  "opciones": [
+                    "Ninguna, son sinónimos",
+                    "`const` se conoce al compilar; `final` se asigna una vez al ejecutar",
+                    "`final` solo sirve para números"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "`const` exige un valor conocido en compilación; `final` solo impide reasignar."
+                },
+                {
+                  "pregunta": "¿Qué imprime `String? a; print(a ?? 'vacío');`?",
+                  "opciones": [
+                    "null",
+                    "vacío",
+                    "Da un error"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "`??` devuelve el valor de la derecha cuando el de la izquierda es null."
+                },
+                {
+                  "pregunta": "¿Qué tipo deduce Dart para `var x = 3.0;`?",
+                  "opciones": [
+                    "int",
+                    "double",
+                    "num"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "Un literal con punto decimal es un `double`."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dart-m2",
+          "titulo": "2. Funciones y colecciones",
+          "lecciones": [
+            {
+              "id": "dart-m2-l1",
+              "titulo": "Funciones",
+              "tipo": "teoria",
+              "contenido": "Una función recibe datos, hace algo y devuelve un resultado:\n\n```dart\nint sumar(int a, int b) {\n  return a + b;\n}\n```\n\nSi el cuerpo es una sola expresión, existe la forma corta con flecha:\n\n```dart\nint sumar(int a, int b) => a + b;\n```\n\n### Parámetros con nombre\n\nLos parámetros entre llaves se pasan por nombre, lo que hace las llamadas más legibles. `required` los vuelve obligatorios; los demás necesitan un valor por defecto o ser anulables.\n\n```dart\nString saludar({required String nombre, String saludo = 'Hola'}) => '$saludo, $nombre';\n\nsaludar(nombre: 'Ada');                    // Hola, Ada\nsaludar(nombre: 'Ada', saludo: 'Buenas');  // Buenas, Ada\n```\n\n**Por qué importa:** Flutter usa parámetros con nombre en todas partes (`Text('Hola', style: ...)`). Entenderlos aquí te ahorra confusión después."
+            },
+            {
+              "id": "dart-m2-l2",
+              "titulo": "Listas y mapas",
+              "tipo": "teoria",
+              "contenido": "Una **lista** guarda valores en orden; un **mapa** asocia claves con valores.\n\n```dart\nfinal lenguajes = <String>['Dart', 'Python', 'Go'];\nlenguajes.add('Rust');\nprint(lenguajes[0]);      // Dart\nprint(lenguajes.length);  // 4\n\nfinal estrellas = <String, int>{'Dart': 5, 'Go': 4};\nprint(estrellas['Dart']);    // 5\nprint(estrellas['Kotlin']);  // null: la clave no existe\n```\n\n### Transformar sin bucles\n\n```dart\nfinal largos = lenguajes.where((l) => l.length > 2).toList();\nfinal mayus  = lenguajes.map((l) => l.toUpperCase()).toList();\n```\n\n`where` filtra y `map` transforma. Ambos devuelven un resultado nuevo y dejan la lista original intacta.\n\n**Por qué importa:** casi toda pantalla de una app es una lista de datos transformada en una lista de elementos visuales. `map` es justo esa operación."
+            },
+            {
+              "id": "dart-m2-l3",
+              "titulo": "Práctica: notas de un curso",
+              "tipo": "practica",
+              "contenido": "Dado este mapa de notas:\n\n```dart\nfinal notas = {'Ana': 8.5, 'Luis': 4.0, 'Marta': 6.5, 'Iván': 9.0};\n```\n\n1. Escribe una función `aprobados` que reciba el mapa y devuelva la lista de nombres con nota mayor o igual a 5.\n2. Escribe una función `media` que devuelva la nota media.\n3. Imprime ambos resultados.\n\nPista: `notas.entries` te da pares con `.key` y `.value`; `notas.values` te da solo las notas.",
+              "solucion": "```dart\nList<String> aprobados(Map<String, double> notas) =>\n    notas.entries.where((e) => e.value >= 5).map((e) => e.key).toList();\n\ndouble media(Map<String, double> notas) =>\n    notas.values.reduce((a, b) => a + b) / notas.length;\n\nvoid main() {\n  final notas = {'Ana': 8.5, 'Luis': 4.0, 'Marta': 6.5, 'Iván': 9.0};\n  print(aprobados(notas)); // [Ana, Marta, Iván]\n  print(media(notas));     // 7.0\n}\n```\n\nPregunta para pensar: ¿qué pasa con `media` si el mapa está vacío? ¿Cómo lo protegerías?"
+            },
+            {
+              "id": "dart-m2-l4",
+              "titulo": "Cuestionario: funciones y colecciones",
+              "tipo": "quiz",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué devuelve `[1, 2, 3].map((n) => n * 2).toList()`?",
+                  "opciones": [
+                    "[1, 2, 3]",
+                    "[2, 4, 6]",
+                    "12"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "`map` aplica la función a cada elemento y produce una lista nueva."
+                },
+                {
+                  "pregunta": "¿Qué obtienes al leer una clave que no existe en un mapa?",
+                  "opciones": [
+                    "Un error",
+                    "null",
+                    "Una cadena vacía"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "Por eso el resultado de `mapa[clave]` es de tipo anulable."
+                },
+                {
+                  "pregunta": "¿Para qué sirve `required` en un parámetro con nombre?",
+                  "opciones": [
+                    "Lo hace obligatorio al llamar a la función",
+                    "Lo convierte en constante",
+                    "Le da un valor por defecto"
+                  ],
+                  "correcta": 0,
+                  "explicacion": "Sin `required`, un parámetro con nombre es opcional."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "git-desde-cero",
+      "titulo": "Git desde cero",
+      "descripcion": "Guarda el historial de tu código, trabaja en ramas y publica en GitHub sin miedo a romper nada.",
+      "nivel": "Principiante",
+      "libros": [
+        "pro-git",
+        "git-la-guia-sencilla",
+        "reglas-de-vuelo-para-git"
+      ],
+      "modulos": [
+        {
+          "id": "git-m1",
+          "titulo": "1. Guardar tu trabajo",
+          "lecciones": [
+            {
+              "id": "git-m1-l1",
+              "titulo": "Qué es Git y qué problema resuelve",
+              "tipo": "teoria",
+              "contenido": "Git guarda **fotografías** de tu proyecto a lo largo del tiempo. Cada fotografía se llama *commit* y puedes volver a cualquiera de ellas.\n\nSin Git acabas con `proyecto_final.zip`, `proyecto_final_v2.zip` y `proyecto_final_ahora_si.zip`. Con Git tienes una sola carpeta y un historial ordenado que explica qué cambió y por qué.\n\nGit trabaja con tres zonas:\n\n| Zona | Qué contiene |\n| --- | --- |\n| Directorio de trabajo | Tus archivos tal como los ves |\n| Área de preparación (*staging*) | Los cambios que elegiste para el próximo commit |\n| Repositorio | El historial de commits ya guardados |\n\n**Por qué hay un paso intermedio:** el *staging* te deja guardar solo una parte de lo que tocaste. Así cada commit cuenta una única cosa y el historial se entiende.\n\nGit no es GitHub: Git funciona en tu ordenador; GitHub es un sitio donde publicar una copia."
+            },
+            {
+              "id": "git-m1-l2",
+              "titulo": "El ciclo básico: add y commit",
+              "tipo": "teoria",
+              "contenido": "```bash\ngit init                      # convierte la carpeta en un repositorio\ngit status                    # qué cambió y en qué zona está\ngit add notas.txt             # prepara un archivo\ngit commit -m \"Añade notas\"   # guarda la fotografía\ngit log --oneline             # historial resumido\n```\n\n`git status` es tu mejor amigo: úsalo antes y después de cada orden hasta que el ciclo te salga solo.\n\n### Un buen mensaje de commit\n\nDescribe **qué cambia y por qué**, no qué teclas pulsaste:\n\n- Mal: `cambios`, `arreglos varios`\n- Bien: `Corrige el cálculo de la media con lista vacía`\n\nPara ver qué cambiaste antes de guardarlo:\n\n```bash\ngit diff            # cambios sin preparar\ngit diff --staged   # cambios ya preparados\n```"
+            },
+            {
+              "id": "git-m1-l3",
+              "titulo": "Práctica: tu primer repositorio",
+              "tipo": "practica",
+              "contenido": "En una carpeta nueva:\n\n1. Inicia un repositorio.\n2. Crea `README.md` con una línea de texto y guárdalo en un commit.\n3. Añade una segunda línea al archivo y crea un archivo `notas.txt`.\n4. Haz **dos commits separados**: uno para el cambio del README y otro para `notas.txt`.\n5. Comprueba que el historial muestra tres commits.",
+              "solucion": "```bash\nmkdir practica-git && cd practica-git\ngit init\n\necho \"# Práctica de Git\" > README.md\ngit add README.md\ngit commit -m \"Crea el README\"\n\necho \"Segunda línea\" >> README.md\necho \"Mis notas\" > notas.txt\n\ngit add README.md\ngit commit -m \"Amplía el README\"\n\ngit add notas.txt\ngit commit -m \"Añade el archivo de notas\"\n\ngit log --oneline\n```\n\nEl paso 4 es el importante: como preparas cada archivo por separado, puedes repartir tu trabajo en commits con un solo tema cada uno."
+            },
+            {
+              "id": "git-m1-l4",
+              "titulo": "Cuestionario: guardar tu trabajo",
+              "tipo": "quiz",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué hace `git add archivo.txt`?",
+                  "opciones": [
+                    "Guarda el archivo en el historial",
+                    "Prepara el archivo para el próximo commit",
+                    "Sube el archivo a GitHub"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "`add` solo mueve el cambio al área de preparación; quien lo guarda es `commit`."
+                },
+                {
+                  "pregunta": "¿Qué orden te dice en qué estado está cada archivo?",
+                  "opciones": [
+                    "git log",
+                    "git status",
+                    "git init"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "`git log` muestra commits ya hechos; `git status` muestra el estado actual."
+                },
+                {
+                  "pregunta": "¿Cuál es la relación entre Git y GitHub?",
+                  "opciones": [
+                    "Son lo mismo",
+                    "GitHub es un servicio donde publicar repositorios de Git",
+                    "Git solo funciona con conexión a GitHub"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "Git funciona por completo en local; GitHub aloja copias remotas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "git-m2",
+          "titulo": "2. Ramas y trabajo remoto",
+          "lecciones": [
+            {
+              "id": "git-m2-l1",
+              "titulo": "Ramas: probar sin romper",
+              "tipo": "teoria",
+              "contenido": "Una rama es una línea de trabajo independiente. Te permite probar una idea sin tocar la versión que funciona.\n\n```bash\ngit switch -c nueva-funcion   # crea la rama y cambia a ella\n# ...editas y haces commits...\ngit switch main               # vuelves a la rama principal\ngit merge nueva-funcion       # traes los cambios\ngit branch -d nueva-funcion   # borras la rama ya fusionada\n```\n\n### Conflictos\n\nSi dos ramas cambian las mismas líneas, Git no adivina cuál quieres y marca el archivo:\n\n```text\n<<<<<<< HEAD\ncolor = \"azul\"\n=======\ncolor = \"verde\"\n>>>>>>> nueva-funcion\n```\n\nEdita el archivo para dejar la versión correcta, borra las marcas y termina con `git add` y `git commit`. Un conflicto no es un error: es Git pidiéndote una decisión que solo tú puedes tomar."
+            },
+            {
+              "id": "git-m2-l2",
+              "titulo": "Remotos: publicar en GitHub",
+              "tipo": "teoria",
+              "contenido": "Un *remoto* es una copia del repositorio en otro lugar, normalmente GitHub.\n\n```bash\ngit remote add origin https://github.com/usuario/proyecto.git\ngit push -u origin main   # sube tus commits (la primera vez, con -u)\ngit pull                  # trae y fusiona los cambios de otros\ngit clone <url>           # descarga un repositorio existente\n```\n\nEl flujo habitual en equipo:\n\n1. Creas una rama para tu cambio.\n2. Haces commits y subes la rama con `git push`.\n3. Abres una *pull request* en GitHub para que otra persona lo revise.\n4. Tras la revisión, la rama se fusiona en `main`.\n\n**Por qué no trabajar directamente en `main`:** la rama principal debe funcionar siempre. Las ramas y la revisión son la red de seguridad."
+            },
+            {
+              "id": "git-m2-l3",
+              "titulo": "Práctica: provocar y resolver un conflicto",
+              "tipo": "practica",
+              "contenido": "En el repositorio de la práctica anterior:\n\n1. Crea una rama `saludo` y cambia la primera línea del README. Haz commit.\n2. Vuelve a `main` y cambia **esa misma línea** con otro texto. Haz commit.\n3. Fusiona `saludo` en `main`. Git avisará de un conflicto.\n4. Resuélvelo dejando el texto que prefieras y completa la fusión.",
+              "solucion": "```bash\ngit switch -c saludo\n# edita la primera línea del README: \"# Hola desde la rama\"\ngit commit -am \"Cambia el título en la rama\"\n\ngit switch main\n# edita la misma línea: \"# Hola desde main\"\ngit commit -am \"Cambia el título en main\"\n\ngit merge saludo       # CONFLICT en README.md\n# abre README.md, deja una sola versión y borra las marcas <<<<<<< ======= >>>>>>>\ngit add README.md\ngit commit             # completa la fusión\ngit log --oneline --graph\n```\n\n`git log --graph` dibuja cómo se separaron y volvieron a unirse las dos ramas."
+            },
+            {
+              "id": "git-m2-l4",
+              "titulo": "Cuestionario: ramas y remotos",
+              "tipo": "quiz",
+              "preguntas": [
+                {
+                  "pregunta": "¿Para qué sirve una rama?",
+                  "opciones": [
+                    "Para hacer una copia de seguridad en la nube",
+                    "Para trabajar en un cambio sin afectar a la rama principal",
+                    "Para borrar commits antiguos"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "Una rama aísla tu trabajo hasta que decides fusionarlo."
+                },
+                {
+                  "pregunta": "¿Qué debes hacer ante un conflicto de fusión?",
+                  "opciones": [
+                    "Borrar el repositorio y clonarlo de nuevo",
+                    "Editar el archivo, dejar la versión correcta, y hacer add y commit",
+                    "Esperar a que Git lo resuelva solo"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "Git marca las dos versiones y espera a que elijas."
+                },
+                {
+                  "pregunta": "¿Qué orden sube tus commits al remoto?",
+                  "opciones": [
+                    "git pull",
+                    "git push",
+                    "git clone"
+                  ],
+                  "correcta": 1,
+                  "explicacion": "`push` envía, `pull` trae y `clone` descarga un repositorio completo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
