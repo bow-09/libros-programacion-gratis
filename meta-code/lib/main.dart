@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'core/ads/ad_banner.dart';
 import 'core/storage.dart';
 import 'features/agent_lab/agent_lab_screen.dart';
 import 'features/learning_paths/paths_screen.dart';
@@ -11,6 +12,8 @@ import 'features/tutor_companion/tutor_screen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
+  // Sin await: los anuncios no deben retrasar el arranque.
+  initAds();
   runApp(
     ProviderScope(
       overrides: [sharedPreferencesProvider.overrideWithValue(prefs)],
@@ -30,7 +33,10 @@ class MetaCodeApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: seed)),
       darkTheme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: seed, brightness: Brightness.dark),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: seed,
+          brightness: Brightness.dark,
+        ),
       ),
       home: const HomeShell(),
     );
@@ -48,8 +54,18 @@ class _Destination {
 const _destinations = [
   _Destination('Rutas', Icons.route_outlined, Icons.route, PathsScreen()),
   _Destination('Tutor', Icons.forum_outlined, Icons.forum, TutorScreen()),
-  _Destination('Laboratorio', Icons.science_outlined, Icons.science, AgentLabScreen()),
-  _Destination('Biblioteca', Icons.menu_book_outlined, Icons.menu_book, LibraryScreen()),
+  _Destination(
+    'Laboratorio',
+    Icons.science_outlined,
+    Icons.science,
+    AgentLabScreen(),
+  ),
+  _Destination(
+    'Biblioteca',
+    Icons.menu_book_outlined,
+    Icons.menu_book,
+    LibraryScreen(),
+  ),
 ];
 
 class HomeShell extends StatefulWidget {
@@ -80,7 +96,10 @@ class _HomeShellState extends State<HomeShell> {
               labelType: NavigationRailLabelType.all,
               leading: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 12),
-                child: Text('meta-code', style: Theme.of(context).textTheme.titleSmall),
+                child: Text(
+                  'meta-code',
+                  style: Theme.of(context).textTheme.titleSmall,
+                ),
               ),
               destinations: [
                 for (final d in _destinations)
@@ -92,7 +111,14 @@ class _HomeShellState extends State<HomeShell> {
               ],
             ),
             const VerticalDivider(width: 1),
-            Expanded(child: body),
+            Expanded(
+              child: Column(
+                children: [
+                  Expanded(child: body),
+                  const AdBanner(),
+                ],
+              ),
+            ),
           ],
         ),
       );
@@ -100,16 +126,22 @@ class _HomeShellState extends State<HomeShell> {
 
     return Scaffold(
       body: body,
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: _index,
-        onDestinationSelected: (i) => setState(() => _index = i),
-        destinations: [
-          for (final d in _destinations)
-            NavigationDestination(
-              icon: Icon(d.icon),
-              selectedIcon: Icon(d.selectedIcon),
-              label: d.label,
-            ),
+      bottomNavigationBar: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const AdBanner(),
+          NavigationBar(
+            selectedIndex: _index,
+            onDestinationSelected: (i) => setState(() => _index = i),
+            destinations: [
+              for (final d in _destinations)
+                NavigationDestination(
+                  icon: Icon(d.icon),
+                  selectedIcon: Icon(d.selectedIcon),
+                  label: d.label,
+                ),
+            ],
+          ),
         ],
       ),
     );

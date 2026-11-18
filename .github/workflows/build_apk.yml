@@ -3,7 +3,7 @@ name: meta-code · pruebas y APK
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, 'claude/**']
     paths:
       - 'meta-code/**'
       - '.github/workflows/build_apk.yml'
